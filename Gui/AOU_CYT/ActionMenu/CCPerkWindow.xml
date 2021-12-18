@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Menu>
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Perks&lt;/font&gt;"
+		name="perk_window"
+		tooltip="#PerksWindow"
+		tooltip_body="#ItEnablesYou">
+	</MenuEntry>
+</Menu>

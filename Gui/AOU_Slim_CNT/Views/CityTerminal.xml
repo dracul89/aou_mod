@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><root>
+	<View name="InspectCityPanel" view_layout="vertical">
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,3,3,3)" value="#CityControlCharge"/>
+			<HLayoutSpacer/>
+		</View>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<View layout_borders="Rect(3,3,3,3)" name="ChargeBarDock"/>
+			<HLayoutSpacer/>
+		</View>
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(5,0,5,3)" value="#CityOwner:"/>
+			<TextView layout_borders="Rect(0,0,5,3)" name="OrgNameView"/>
+			<HLayoutSpacer/>
+		</View>
+	        <BorderView layout_borders="Rect(5,0,5,5)">
+		        <View name="MapViewDock"/>
+	        </BorderView>	
+	</View>
+
+
+
+
+        <View name="UpkeepController" view_layout="horizontal">
+	        <BorderView layout_borders="Rect(5,5,5,5)">
+		        <TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ACCEPT_MOUSE_INPUT" h_scrollbar_mode="AUTO" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 0 )" name="InfoTextView" v_scrollbar_mode="AUTO_RESERVE"/>
+	        </BorderView>
+		<View view_layout="vertical">
+		        <BorderView layout_borders="Rect(0,5,5,5)" view_layout="horizontal">
+				<View h_alignment="LEFT" view_layout="vertical">
+					<TextView layout_borders="Rect(3,3,3,3)" value="#CityOwner:"/>
+					<TextView layout_borders="Rect(10,0,3,10)" name="OrgNameView"/>
+
+					<TextView layout_borders="Rect(3,3,3,3)" value="#YourNextUpkeep"/>
+					<TextView layout_borders="Rect(10,0,3,10)" name="UpkeepDateView"/>
+
+					<TextView layout_borders="Rect(3,0,3,3)" value="#TheUpkeepYou"/>
+					<TextView layout_borders="Rect(10,0,3,10)" name="UpkeepAmountView"/>
+
+					<VLayoutSpacer/>
+				</View>
+				<HLayoutSpacer/>
+			</BorderView>
+			<TextView layout_borders="Rect(3,3,3,3)" value="#CityControlCharge"/>
+			<View layout_borders="Rect(3,3,3,3)" name="ChargeBarDock"/>
+		        <BorderView layout_borders="Rect(0,0,5,5)" view_layout="horizontal">
+				<HLayoutSpacer/>
+				<View view_layout="vertical">
+					<Button label="#DumpCityAdvanta" layout_borders="Rect(5,5,5,5)" name="DumpAdvantagesButton"/>
+				</View>
+				<HLayoutSpacer/>
+			</BorderView>
+		</View>
+	</View>
+
+
+
+        <View name="CityMapView" view_layout="horizontal">
+	        <BorderView layout_borders="Rect(5,5,5,5)">
+		        <View name="MapViewDock"/>
+	        </BorderView>
+	</View>
+
+
+
+	<View name="CityMapControlView" view_layout="vertical">
+	        <BorderView layout_borders="Rect(0,5,5,5)">
+		        <TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ACCEPT_MOUSE_INPUT" h_scrollbar_mode="AUTO" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 0 )" name="InfoTextView" v_scrollbar_mode="AUTO"/>
+		</BorderView>
+	        <BorderView layout_borders="Rect(0,0,5,5)">
+			<ViewSelector name="ButtonSelector">
+			        <View view_layout="vertical">
+				        <View view_layout="horizontal">
+					        <Button label="#Rotate" layout_borders="Rect(5,5,5,5)" name="RotateButton"/>
+						<Button label="#Delete" layout_borders="Rect(0,5,5,5)" name="DeleteButton"/>
+					</View>
+					<Button label="#ConstruBuildin" layout_borders="Rect(5,0,5,5)" name="ConstructButton"/>
+				</View>
+			        <View view_layout="vertical">
+					<Button label="#DemolisBuildin" layout_borders="Rect(5,5,5,5)" name="DemolishButton"/>
+				</View>
+			</ViewSelector>
+		</BorderView>
+	</View>
+
+
+        <View name="CloakingController" view_layout="vertical">
+		<BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+			<View view_layout="horizontal">
+				<HLayoutSpacer/>
+				<TextView layout_borders="Rect(5,5,5,5)" value="#CloakinDevice"/>
+				<HLayoutSpacer/>
+			</View>
+		        <View view_layout="horizontal">
+				<Button label="#EnableCloakinDevice" layout_borders="Rect(5,5,5,5)" name="EnableCloakingDeviceButton" toggled_label="Disable Cloaking Device"/>
+		        	<HLayoutSpacer/>
+			</View>
+		        <VLayoutSpacer/>
+		</BorderView>
+	</View>
+</root>

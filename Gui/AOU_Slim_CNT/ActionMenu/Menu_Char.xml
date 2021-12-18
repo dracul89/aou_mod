@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><Menu label="Char Menu">
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Item Shop&lt;/font&gt;" name="itemshop_window" tooltip="#ItemShopButtonTT" tooltip_body="#ItemShopButtonTTBody">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="itemshop_window" value="dvalue:itemshop_window==false" />
+		</Actions>
+	</MenuEntry>
+	
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Inventory&lt;/font&gt;" name="inventory_window" criteria="stat:side!=3" tooltip="#InventoWindow" tooltip_body="#YourInventoIs">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="inventory_window" value="dvalue:inventory_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Wear&lt;/font&gt;" name="wear_window" tooltip="#WearWindow" tooltip_body="#ContainAllWorn">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="wear_window" value="dvalue:wear_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Skills&lt;/font&gt;" name="skill_window" criteria="stat:side!=3" tooltip="#SkillWindow" tooltip_body="#ThisIsWhere">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="skill_window" value="dvalue:skill_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Perks&lt;/font&gt;" name="perk_window" criteria="(stat:level&gt;=10 || stat:alienlevel&gt;=1) &amp;&amp; ((stat:expansion &amp; 0x2) || (stat:expansion &amp; 0x8))" tooltip="#PerksWindow" tooltip_body="#ItEnablesYou">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="perk_window" value="dvalue:perk_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Knowledge&lt;/font&gt;" name="knowledge_window" tooltip="Knowledge" tooltip_body="Contains your knowledge about seen items and people.">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="knowledge_window" value="dvalue:knowledge_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Faction&lt;/font&gt;" name="faction_window" tooltip="#FactionWindow" tooltip_body="#ContainYourCurrent">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="faction_window" value="dvalue:faction_window==false" />
+		</Actions>
+	</MenuEntry>
+	
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Stats&lt;/font&gt;" name="stat_window" tooltip="#Stats" tooltip_body="#OpenTheStat">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="stat_window" value="dvalue:stat_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry criteria="stat:expansion &amp; 32" label="&lt;font color=#FFBE96&gt;Research&lt;/font&gt;" name="research_window" tooltip="Research Window" tooltip_body="The research system allows you to develop new personal skills and abilities. You can also choose to contribute to the global research projects developing new technology.">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="research_window" value="dvalue:research_window==false" />
+		</Actions>
+	</MenuEntry>
+
+</Menu>

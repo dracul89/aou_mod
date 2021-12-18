@@ -1,0 +1,52 @@
+<Menu label="Custom Maps Menu" name="custommaps_menu">
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;About Maps&lt;/font&gt;" tooltip="About Maps" tooltip_body="Info about custom maps ">
+  <Actions event="on_invoke">
+  <RunChatScript value="/script custom_maps"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Default Map&lt;/font&gt;" tooltip="Default Map" tooltip_body="Default Map ">
+  <Actions event="on_invoke">
+  <RunChatScript value="/setoption PlanetMapIndexFile &quot;normal/PlanetMapIndexNormal.txt&quot; \n /close planetmap \n /open planetmap"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;AoSL Map&lt;/font&gt;" tooltip="SL Map" tooltip_body="Onack's Atlas of Shadowlands">
+  <Actions event="on_invoke">
+  <RunChatScript value="/setoption ShadowlandMapIndexFile &quot;AoSL/AoSL.txt&quot; \n /close planetmap \n /open planetmap"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Sphere Map&lt;/font&gt;" tooltip="Sphere Map" tooltip_body=" Spheremap of  the Shadowlands">
+  <Actions event="on_invoke">
+  <RunChatScript value="/setoption ShadowlandMapIndexFile &quot;Spheremap_v1.0/Spheremap_v1.0.txt&quot; \n /close planetmap \n /open planetmap"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;AoRK Map&lt;/font&gt;" tooltip="RK Map" tooltip_body="Onack's Atlas of Rubi-Ka">
+  <Actions event="on_invoke">
+  <RunChatScript value="/setoption PlanetMapIndexFile &quot;AoRK/AoRK.txt&quot; \n /close planetmap \n /open planetmap"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Dovve Map&lt;/font&gt;" tooltip="Dovve Map" tooltip_body="Dovve's map of Rubi-Ka">
+  <Actions event="on_invoke">
+  <RunChatScript value="/setoption PlanetMapIndexFile &quot;dovves/DovvesMap.txt&quot; \n /close planetmap \n /open planetmap"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;CSP Map&lt;/font&gt;" tooltip="CSP Map" tooltip_body="Map of Rubi-Ka by Creative Student Productions">
+  <Actions event="on_invoke">
+  <RunChatScript value="/setoption PlanetMapIndexFile &quot;CSPmap/CSPmap.txt&quot; \n /close planetmap \n /open planetmap"/>
+      <CloseMenu/>
+    </Actions>
+  </MenuEntry>
+
+</Menu>

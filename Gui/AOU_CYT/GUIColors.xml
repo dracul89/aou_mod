@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Root>
+    <Color name="Default"      color="0x0080e9f3" />
+    <Color name="Selected"     color="0x00ffffcc" />
+    <Color name="Hover"        color="0x00a5ffdb" />
+    <Color name="Text"         color="0x0099ccaa" />
+    <Color name="TextSelected" color="0x0099ccaa" />
+    <Color name="TextHover"    color="0x0099ccaa" />
+</Root>

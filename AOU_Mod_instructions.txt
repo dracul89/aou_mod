@@ -1,0 +1,181 @@
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+
+AOU MOD
+
+
+
+Design: Scene
+Version: 1.2.5
+Modified: 27/02/2013
+
+
+
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+
+Installation:
+
+Copy the contents of the ZIP file into  the  Anarchy Online Prefs folder,
+overwriting any existing files.
+
+You localate the prefs folder by doing the following:
+1. Start -> Run -> Type in: "%LocalAppData%\Funcom\Anarchy Online" (without the quotations)
+2. Hit enter. Click the folder with the random string.
+3. Click The "Anarchy Online" folder.
+4. This is your Anarchy Online Prefs folder where you want to extract your ZIP file to.
+5. The folder you want will look like this, ish: C:\Users\YOURNAME\AppData\Local\Funcom\Anarchy Online\RANDOMSTRING\Anarchy Online\
+
+
+----------------------------------------------------------------------------------------------
+
+
+First Time Run:
+
+If you are using the AOU MOD for the first time you will need to type the following
+into your chat command:
+
+
+/script aou_gui_default
+
+
+A window will pop up prompting you to restart Anarchy Online for the changes to take effect.
+
+
+----------------------------------------------------------------------------------------------
+
+
+Note to Existing AOU MOD & Custom GUI Users:
+
+You will need to revert back to the original AO Default GUI before installing this MOD, and
+you will also need to reset the GUI settings in the launcher back to default too, then
+follow the First Time Run procedure above.
+
+----------------------------------------------------------------------------------------------
+
+
+Version History:
+
+1.2.5:
+- Compatibility update for game version 18.6.0
+
+
+1.2.4:
+- Compatibility update for game version 18.5.0
+- Added missing loading images
+- Removed custom launcher skin (no longer moddable like this)
+- Removed unneeded font files
+- Removed "AOU Easter eggs" from tips (mods must not modify original files)
+
+
+1.2.3:
+- Removed the Default GUI from zip package
+
+
+1.2.2:
+- Updated key bindings fix issued with 18.4.1 patch
+- includes 18.4.1 Default Clean GUI
+
+
+1.2.1:
+- Added tradeskill QL slider
+- Altered Browser IBeam cursor to sit better with the AOU background
+- Altered Browser Hand  cursor to have a normal length pointy finger
+- Updated MainPrefs.xml & LoginPrefs.xml
+
+
+1.2:
+
+- Added Item Shop button at the top of the Views menu list
+- Included the new binds feature
+- added 18.4 clean GUI
+
+
+1.1.9:
+
+- Added equipment locking option in settings window
+- Altered chat colour for "Me Cast Nano" messages
+
+
+1.1.8
+
+- Altered friends list icon indicators to red/green, due to constant nag... err popular demand
+- Fixed tooltip description on original AO GUI button
+
+==============================================================================================
+	NOTE: Characters will experience the raid window size being larger than the raid
+	listings. To resize the window you will need to go to the prefs.xml (located in the
+	"Anarchy Online\Prefs\<AccountName>\<CharID>") of each created character and remove
+	the following code, using Windows Notepad:
+
+	<Archive name="RaidConfig" code="0">
+        <Rect name="WindowFrame" value="Rect(000.000000,000.000000,000.000000,000.000000)" />
+        <Bool name="WindowPinButtonState" value="false" />
+    	</Archive>
+
+	The numbers will vary from this example
+
+	Save the file, and repeat with any existing character prefs. New characters
+	created after this MOD is installed will not be effected.
+==============================================================================================
+
+
+- Options to switch off any part of the GUI found in the Settings
+  window, under "Control Center"
+
+- New AOU Menu button that provides likes to Winguaerd's Alien
+  Database v3.0, Windguaerd's Line of Fire Voice Pack, AriensGUI
+  and Voice Pack.
+
+- Custom Map option under the Map menu, that allows you to
+  change to any of the custom maps available.
+
+
+
+	NOTE: These custom maps are not part of this zip file, and
+      	      therefore will have to be downloaded manually.
+
+
+	Latest versions of Onack's "Atlas of..." Map series can be downloaded at
+	http://www.aomaps.com
+
+	The latest version of CSP Map can be downloaded at:
+	http://creativestudent.com/ao/#downloads
+
+	The latest version of Spheremap can be downloaded at:
+	http://www.ao-universe.com/download.php?site=maps&id=22
+
+
+----------------------------------------------------------------------------------------------
+
+
+Thanks:
+
+Hope you enjoy this MOD
+
+happy gaming
+
+
+----------------------------------------------------------------------------------------------
+
+
+Credits:
+
+
+Aditional coding by ArienSky
+ 
+AriensGUI & VoicePack designed by ArienSky
+
+Windguaerds Alien Database v3 & Line of Fire VoicePack
+designed by Windguaerd
+
+Inital phase testing, analysis, brainstorming by SceneGG,
+Windguaerd, Ukblizzard, ArienSky & Niodemus
+Other testing and advice by the AOU Team
+Verbal abuse by Windguaerd (j/k)
+Moderation by Snakebite
+http://www.ao-universe.com
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------

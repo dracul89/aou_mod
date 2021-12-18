@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><root>
+  <View view_layout="horizontal">
+    <View view_layout="vertical">
+      <BorderView layout_borders="Rect(5,5,5,5)" h_alignment="LEFT" view_layout="vertical">
+        <View v_alignment="TOP" view_layout="horizontal">
+          <View h_alignment="LEFT" view_layout="vertical">
+            <ViewSelector name="FromToLabelSelector" layout_borders="Rect(5,5,5,5)">
+              <TextView layout_borders="Rect(5,5,5,5)" value="To"/>
+              <TextView layout_borders="Rect(5,5,5,5)" value="From"/>
+            </ViewSelector>
+            <TextView layout_borders="Rect(5,5,5,5)" value="Subject"/>
+          </View>
+          <View h_alignment="LEFT" view_layout="vertical">
+            <ViewSelector name="FromToInputSelector" layout_borders="Rect(5,5,5,5)">
+              <TextInputView layout_borders="Rect(5,5,5,5)" max_size="Point(10000,-1)" name="To"/>
+              <TextInputView layout_borders="Rect(5,5,5,5)" max_size="Point(10000,-1)" name="From"/>
+            </ViewSelector>
+            <TextInputView layout_borders="Rect(5,5,5,5)" max_size="Point(10000,-1)" name="Subject"/>
+          </View>
+        </View>
+        <TextInputView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_WORD_SPLIT|TVF_ALT_ENTER_MODE" layout_borders="Rect(5,5,5,5)" min_size="Point(350,300)" max_size="Point(350,300)" name="MessageText" value="" capture_enter="false"/>
+        <BorderView layout_borders="Rect(5,5,5,5)" max_size="Point(10000,-1)" h_alignment="LEFT" name="ItemBorder">
+          <View v_alignment="TOP" view_layout="horizontal">
+            <View h_alignment="LEFT" view_layout="vertical" width_group="left_group" width_group_owner="ItemBorder">
+              <TextView layout_borders="Rect(3,3,3,3)" value="Credits"/>
+              <TextView layout_borders="Rect(3,3,3,3)" value="C.O.D."/>
+            </View>
+            <View h_alignment="LEFT" view_layout="vertical">
+              <TextInputView feature_flags="TVF_NUMERIC" layout_borders="Rect(3,3,3,3)" max_size="Point(128,-1)" min_size="Point(128,-1)" name="Cash" value="0"/>
+              <TextInputView feature_flags="TVF_NUMERIC" layout_borders="Rect(3,3,3,3)" max_size="Point(128,-1)" min_size="Point(128,-1)" name="COD" value="0"/>
+            </View>
+            <View h_alignment="RIGHT" view_layout="vertical" max_size="Point(10000,-1)">
+              <Button label="Take All" layout_borders="Rect(5,5,5,5)" name="TakeButton"/>
+            </View>
+          </View>
+          <View h_alignment="LEFT" view_layout="horizontal">
+            <View h_alignment="LEFT" view_layout="vertical" width_group="left_group" width_group_owner="ItemBorder">
+              <TextView layout_borders="Rect(3,3,3,3)" value="Item"/>
+              <VLayoutSpacer/>
+            </View>
+            <View h_alignment="LEFT" view_layout="vertical">
+              <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView"/>
+            </View>
+          </View>
+          <View v_alignment="TOP" view_layout="horizontal">
+            <View h_alignment="LEFT" view_layout="vertical" width_group="left_group" width_group_owner="ItemBorder">
+              <TextView layout_borders="Rect(3,3,3,3)" value="Delivery mode" name="DeliveryModeLabel"/>
+              <TextView layout_borders="Rect(3,3,3,3)" value="Total cost" name="TotalLabel"/>
+            </View>
+            <View h_alignment="LEFT" view_layout="vertical">
+              <RadioButtonGroup layout_borders="Rect(3,3,3,3)" view_layout="horizontal" name="DeliveryMode">
+                <RadioButton layout_borders="Rect(0,0,5,0)" label="Standard" value="0"/>
+                <RadioButton layout_borders="Rect(0,0,5,0)" label="Express" value="1"/>
+              </RadioButtonGroup>
+              <TextInputView feature_flags="TVF_NUMERIC" layout_borders="Rect(3,3,3,3)" max_size="Point(128,-1)" min_size="Point(128,-1)" name="Total" value="0"/>
+            </View>
+          </View>
+        </BorderView>
+      </BorderView>
+      <View view_layout="horizontal" h_alignment="LEFT">
+        <ViewSelector name="SendTakeButtonSelector" view_layout="horizontal" h_alignment="LEFT">
+          <View view_layout="horizontal" h_alignment="LEFT">
+            <Button label="Send" layout_borders="Rect(5,5,5,5)" name="SendButton"/>
+            <HLayoutSpacer/>
+          </View>
+          <View view_layout="horizontal" h_alignment="LEFT">
+            <Button label="Reply" layout_borders="Rect(5,5,5,5)" name="ReplyButton" view_flags="256"/>
+            <Button label="Return To Sender" layout_borders="Rect(5,5,5,5)" name="ReturnButton"/>
+            <HLayoutSpacer/>
+            <Button label="#Delete" layout_borders="Rect(5,5,5,5)" name="Delete"/>
+          </View>
+        </ViewSelector>
+        <Button label="#Close" layout_borders="Rect(5,5,5,5)" name="Close"/>
+      </View>
+    </View>
+  </View>
+</root>

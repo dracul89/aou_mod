@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Menu>
+	<MenuEntry bgicon="id:GFX_GUI_CC_ICONS_SKILLS"
+		name="skill_window"
+		tooltip="#SkillWindow"
+		tooltip_body="#ThisIsWhere">
+	</MenuEntry>
+</Menu>

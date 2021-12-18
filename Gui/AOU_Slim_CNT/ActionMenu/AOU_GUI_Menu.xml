@@ -1,0 +1,51 @@
+<Menu label="AOU GUI Menu">
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AOU Default&lt;/font&gt;" tooltip="AOU Default" tooltip_body="Contains yalm cursor, curved statbars, and text menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script aou_gui_default"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AOU Default 1&lt;/font&gt;" tooltip="AOU Default 1" tooltip_body="Contains normal cursor, curved stat bars, and text menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script aou_gui_default_1"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AOU Slimline&lt;/font&gt;" tooltip="AOU Slimline" tooltip_body="Contains normal cursor, straight stat bars, and icon menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script aou_gui_slim"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AOU Slimline 1&lt;/font&gt;" tooltip="AOU Slimline 1" tooltip_body="Contains normal cursor, curved stat bars, and icon menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script aou_gui_slim_1"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AOU Slimline 2&lt;/font&gt;" tooltip="AOU Slimline 2" tooltip_body="Contains normal cursor, curved stat bars, and text menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script aou_gui_slim_2"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AOU Slimline 3&lt;/font&gt;" tooltip="AOU Slimline 3" tooltip_body="Contains normal cursor, straight stat bars, and text menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script aou_gui_slim_3"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AO Original&lt;/font&gt;" tooltip="AO Original" tooltip_body="Contains normal cursor, straight stat bars, and text menu buttons">
+		<Actions event="on_invoke">
+		<RunChatScript value="/script ao_original"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+</Menu>

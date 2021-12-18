@@ -1,0 +1,20 @@
+/close infoview
+/option cc_control_center 0
+/option cc_section1 0
+/option shortcutbar_window 0
+/option ShowFightTargetNCU 0
+/option ShowNanoTargetNCU 0
+/close "Default Window"
+/delay 2000
+/showfile Scripts\AOU_mod\AriensGUI\Tips\ScreenshotWarning.htm
+/delay 4000
+/close infoview
+/delay 60000
+/option cc_control_center 1
+/option cc_section1 1
+/option shortcutbar_window 1
+/option friends_window 1
+/option ShowFightTargetNCU 1
+/option ShowNanoTargetNCU 1
+/open "Default Window"
+/text Menu is now displayed

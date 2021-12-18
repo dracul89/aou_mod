@@ -1,0 +1,326 @@
+<?xml version="1.0" ?>
+<root>
+ <View h_alignment="LEFT" view_layout="vertical" name="RaidWindow">
+  <View h_alignment="RIGHT" layout_borders="Rect(2,2,2,2)" view_layout="horizontal">
+   <Button label="Convert To Raid" name="CreateRaid"/>
+   <Button label="Raid Locks" name="ListLocks"/>
+  </View>
+  <View h_alignment="LEFT" layout_borders="Rect(2,2,2,2)" view_layout="horizontal" width_group="MembersWidth" width_group_owner="RaidWindow">
+   <View h_alignment="LEFT" view_layout="vertical">
+    <TextView value="Team 1"/>
+    <BorderView h_alignment="CENTER" min_size="Point(200,-1)" layout_borders="Rect(2,2,2,2)" view_layout="vertical" name="team1" view_flags="0">
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t1p1_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="1."/>
+      <BitmapView name="t1p1_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p1_Level" value=""/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p1_Name" value=""/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t1p2_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="2."/>
+      <BitmapView name="t1p2_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p2_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p2_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t1p3_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="3."/>
+      <BitmapView name="t1p3_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p3_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p3_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t1p4_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="4."/>
+      <BitmapView name="t1p4_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p4_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p4_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t1p5_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="5."/>
+      <BitmapView name="t1p5_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p5_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p5_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t1p6_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="6."/>
+      <BitmapView name="t1p6_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p6_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t1p6_Name"/>
+      <VLayoutSpacer/>
+     </View>
+    </BorderView>
+   </View>
+   <View h_alignment="LEFT" view_layout="vertical">
+    <TextView value="Team 2"/>
+    <BorderView h_alignment="CENTER" min_size="Point(200,-1)" layout_borders="Rect(2,2,2,2)" view_layout="vertical" name="team2" view_flags="0">
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t2p1_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="1."/>
+      <BitmapView name="t2p1_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p1_Level" value="" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p1_Name" value=""/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t2p2_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="2."/>
+      <BitmapView name="t2p2_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p2_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p2_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t2p3_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="3."/>
+      <BitmapView name="t2p3_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p3_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p3_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t2p4_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="4."/>
+      <BitmapView name="t2p4_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p4_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p4_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t2p5_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="5."/>
+      <BitmapView name="t2p5_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p5_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p5_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t2p6_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="6."/>
+      <BitmapView name="t2p6_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p6_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t2p6_Name"/>
+      <VLayoutSpacer/>
+     </View>
+    </BorderView>
+   </View>
+   <View h_alignment="LEFT" view_layout="vertical">
+    <TextView value="Team 3"/>
+    <BorderView h_alignment="CENTER" min_size="Point(200,-1)" layout_borders="Rect(2,2,2,2)" view_layout="vertical" name="team3" view_flags="0">
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t3p1_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="1."/>
+      <BitmapView name="t3p1_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p1_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p1_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t3p2_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="2."/>
+      <BitmapView name="t3p2_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p2_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p2_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t3p3_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="3."/>
+      <BitmapView name="t3p3_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p3_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p3_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t3p4_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="4."/>
+      <BitmapView name="t3p4_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p4_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p4_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t3p5_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="5."/>
+      <BitmapView name="t3p5_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p5_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p5_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t3p6_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="6."/>
+      <BitmapView name="t3p6_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p6_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t3p6_Name"/>
+      <VLayoutSpacer/>
+     </View>
+    </BorderView>
+   </View>
+  </View>
+  <View h_alignment="LEFT" layout_borders="Rect(2,2,2,2)" view_layout="horizontal" width_group="MembersWidth" width_group_owner="RaidWindow">
+   <View h_alignment="LEFT" view_layout="vertical">
+    <TextView value="Team 4"/>
+    <BorderView h_alignment="CENTER" min_size="Point(200,-1)" layout_borders="Rect(2,2,2,2)" view_layout="vertical" name="team4" view_flags="0">
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t4p1_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="1."/>
+      <BitmapView name="t4p1_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p1_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p1_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t4p2_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="2."/>
+      <BitmapView name="t4p2_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p2_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p2_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t4p3_Line">
+      <TextView layout_borders="Rect(3,1,3,1)" value="3."/>
+      <BitmapView name="t4p3_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p3_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p3_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t4p4_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="4."/>
+      <BitmapView name="t4p4_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p4_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p4_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t4p5_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="5."/>
+      <BitmapView name="t4p5_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p5_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p5_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t4p6_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="6."/>
+      <BitmapView name="t4p6_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p6_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t4p6_Name"/>
+      <VLayoutSpacer/>
+     </View>
+    </BorderView>
+   </View>
+   <View h_alignment="LEFT" view_layout="vertical">
+    <TextView value="Team 5"/>
+    <BorderView h_alignment="CENTER" min_size="Point(200,-1)" layout_borders="Rect(2,2,2,2)" view_layout="vertical" name="team5" view_flags="0">
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t5p1_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="1."/>
+      <BitmapView name="t5p1_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p1_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p1_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t5p2_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="2."/>
+      <BitmapView name="t5p2_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p2_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p2_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t5p3_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="3."/>
+      <BitmapView name="t5p3_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p3_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p3_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t5p4_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="4."/>
+      <BitmapView name="t5p4_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p4_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p4_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t5p5_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="5."/>
+      <BitmapView name="t5p5_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p5_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p5_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t5p6_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="6."/>
+      <BitmapView name="t5p6_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p6_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t5p6_Name"/>
+      <VLayoutSpacer/>
+     </View>
+    </BorderView>
+   </View>
+   <View h_alignment="LEFT" view_layout="vertical">
+    <TextView value="Team 6"/>
+    <BorderView h_alignment="CENTER" min_size="Point(200,-1)" layout_borders="Rect(2,2,2,2)" view_layout="vertical" name="team6" view_flags="0">
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t6p1_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="1."/>
+      <BitmapView name="t6p1_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p1_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p1_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t6p2_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="2."/>
+      <BitmapView name="t6p2_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p2_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p2_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t6p3_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="3."/>
+      <BitmapView name="t6p3_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p3_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p3_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t6p4_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="4."/>
+      <BitmapView name="t6p4_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p4_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p4_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t6p5_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="5."/>
+      <BitmapView name="t6p5_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p5_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p5_Name"/>
+      <VLayoutSpacer/>
+     </View>
+     <BitmapView bitmap_id="GFX_GUI_FRIENDLIST_SPLITTER"/>
+     <View h_alignment="LEFT" view_layout="horizontal" view_flags="0" name="t6p6_Line">
+      <TextView font="MEDIUM" layout_borders="Rect(3,1,3,1)" value="6."/>
+      <BitmapView name="t6p6_Prof" />
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p6_Level"/>
+      <TextView layout_borders="Rect(3,1,3,1)" name="t6p6_Name"/>
+      <VLayoutSpacer/>
+     </View>
+    </BorderView>
+   </View>
+  </View>
+  <VLayoutSpacer/>
+ </View>
+</root>

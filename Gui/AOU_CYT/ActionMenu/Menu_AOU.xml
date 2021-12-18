@@ -1,0 +1,47 @@
+<Menu label="AOU Menu">
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;About&lt;/font&gt;" tooltip="About AOU" tooltip_body="About AO-Universe">
+		<Actions event="on_invoke">
+		<RunChatScript value="/showfile Scripts\AOU_mod\HelpFiles\aou.html"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<Menu label="&lt;font color=#ffb300&gt;GUI Settings&lt;/font&gt;" name="gui_menu" sub_script="AOU_GUI_Menu.xml" tooltip="GUI Settings" tooltip_body="Preset GUI options for the AOU MOD">
+	</Menu>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;AriensGUI&lt;/font&gt;" tooltip="AriensGUI" tooltip_body="Useful addon tools window designed by ArienSky">
+		<Actions event="on_invoke">
+		<RunChatScript value="/showfile scripts\AOU_mod\AriensGUI\ArienskyPanelAOU.htm"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;RecipeNET&lt;/font&gt;" tooltip="RecipeNET" tooltip_body="A very useful bot that provides information regarding tradeskill items">
+		<Actions event="on_invoke">
+		<RunChatScript value="/showfile Scripts\AOU_mod\HelpFiles\recipenet.html"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;Ariens VoicePack&lt;/font&gt;" tooltip="Ariens Voice Pack" tooltip_body="Voice Pack addon created by ArienSky">
+		<Actions event="on_invoke">
+		<RunChatScript value="/showfile scripts\AOU_mod\Voicepack\Basic.htm"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;WGs VoicePack&lt;/font&gt;" tooltip="Windguaerds Voice Pack" tooltip_body="Line Of Fire military Voice Pack addon created by Windguaerd">
+		<Actions event="on_invoke">
+		<RunChatScript value="/showfile Scripts\AOU_mod\Voicepack\lof_list.html"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry  button_mode="button" label="&lt;font color=#ffb300&gt;WGs Alien DB v3&lt;/font&gt;" tooltip="Windguaerds Alien Database v3" tooltip_body="Everything you needed to know about alien raiding  created by Windguaerd">
+		<Actions event="on_invoke">
+		<RunChatScript value="/showfile Scripts\AOU_mod\HelpFiles\aidb\alien_index.html"/>
+		<CloseMenu />
+		</Actions>
+	</MenuEntry>
+</Menu>

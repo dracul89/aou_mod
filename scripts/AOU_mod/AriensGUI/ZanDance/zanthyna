@@ -1,0 +1,5 @@
+/text <font color="#DB96E0">Thank you for downloading and using my scripts.  Any feedback, comments, suggestions, or criticisms you have are welcome.  Send a /tell to Zanthyna on RK-1 or RK-2 (Atlanteen or Rimor servers) and I willl get it (thought it may take a while, since I'm lazy and I suffer from alt-itis).</font>
+/delay 8000
+/text <font color="#DB96E0">"Zanthyna" will now be added to your buddy list.  If you want to write your own scripts or download more, visit my web  site at www.zanthyna.com.</font>
+/delay 5000
+/cc addbuddy Zanthyna

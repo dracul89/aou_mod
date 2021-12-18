@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Root>
+  <View v_alignment="TOP" view_layout="vertical">
+    <BorderView layout_borders="Rect(0,0,0,2)" max_size="Point(10000,10000)" min_size="Point(1,1)" name="TargetView">
+    </BorderView>
+    <View h_alignment="TOP" view_layout="horizontal">
+      <Button label="Go!" layout_borders="Rect(0,0,0,2)" name="Go"/>
+      <HLayoutSpacer/>
+      <Button label="#Close" layout_borders="Rect(0,0,0,2)" name="Quit"/>
+    </View>
+  </View>
+</Root>

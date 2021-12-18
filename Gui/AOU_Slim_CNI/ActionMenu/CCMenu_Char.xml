@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><Menu>
+	<Menu bgicon="id:GFX_GUI_CC_ICONS_VIEWS" name="char_menu" sub_script="Menu_Char.xml" tooltip="Char Menu" tooltip_body="Access Char stats and options.">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="aou_menu" value="false"/>
+			<SetValue name="team_menu" value="false"/>
+			<SetValue name="map_menu" value="false"/>
+			<SetValue name="other_menu" value="false"/>
+			<SetValue name="perk_menu" value="false"/>
+		</Actions>
+	</Menu>	
+</Menu>

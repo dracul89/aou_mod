@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><Menu>
+	<Menu label="&lt;font color=#FFBE96&gt;Maps&lt;/font&gt;" name="map_menu" sub_script="Menu_Map.xml" tooltip="Map Menu" tooltip_body="Access your planet and playfield maps.">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="aou_menu" value="false"/>
+			<SetValue name="team_menu" value="false"/>
+			<SetValue name="char_menu" value="false"/>
+			<SetValue name="other_menu" value="false"/>
+			<SetValue name="perk_menu" value="false"/>
+		</Actions>
+	</Menu>	
+</Menu>

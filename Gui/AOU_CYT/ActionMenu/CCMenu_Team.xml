@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><Menu>
+	<Menu label="&lt;font color=#FFBE96&gt;Team&lt;/font&gt;" name="team_menu" sub_script="Menu_Team.xml" tooltip="Team Menu" tooltip_body="Access team regarded views and options.">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="aou_menu" value="false"/>
+			<SetValue name="char_menu" value="false"/>
+			<SetValue name="map_menu" value="false"/>
+			<SetValue name="other_menu" value="false"/>
+			<SetValue name="perk_menu" value="false"/>
+		</Actions>
+	</Menu>	
+</Menu>

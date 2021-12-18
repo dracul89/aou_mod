@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<Menu>
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Skills&lt;/font&gt;"
+		name="skill_window"
+		tooltip="#SkillWindow"
+		tooltip_body="#ThisIsWhere">
+	</MenuEntry>
+</Menu>

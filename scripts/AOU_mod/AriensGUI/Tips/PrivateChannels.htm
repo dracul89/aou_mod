@@ -1,0 +1,34 @@
+<body bgcolor="#008080">Private channels<font color=CCInfoText>
+<img src=tdb://id:GFX_GUI_FRIENDLIST_SPLITTER>
+
+<font color=CCInfoHeader>---<font color="white">The basics</font>---</font>
+You can make your own private channel that only you and those you invite can see.
+
+It is smart for talking with multiple people you are not in team with, it also has the advantage that it is easy to post windows, like those in this panel, in private Channels, as they work just like Vicinity and the team chat.
+
+<font color=CCInfoHeader>---<font color="white">The basic commands</font>---</font>
+<font color=CCInfoHeader>/invite NAME</font>
+Will invite NAME to your channel, that will be named after you.
+
+<font color=CCInfoHeader>/kick NAME</font>
+Will remove NAME from your private channel.
+to leave by there own, your guests can use:
+<font color=CCInfoHeader>/leave CHANNEL-NAME</font>
+
+If you want everyone to leave your private channel, go to the <a href="chatcmd:///option chat_group_window 1">Chat configuration</a> (Shift-C), under Private Channels, right-click your channel, and press "Disband".
+
+<font color=CCInfoHeader>---<font color="white">Further use</font>---</font>
+It is a convenient channel to test scripts in, so you do not spam vicinity.
+There is a catch though, you need to invite someone, to be able to write in the chat.
+No problem, just invite an alt of yours or <font color=CCInfoHeader>/invite ArienGUI</font>, the channel is made even though no one accepts the invitation.
+
+Private Channels and Org Chat are the only two channels that allow windows larger than 1kb, so you can send things to friends that you normally would not be able to.
+All windows in this panel are made so they can be put in vicinity, OOC etc. they are all under 1kb.
+
+Larger windows can relatively easy be send in the following way
+<font color=CCInfoHeader>/invite %t
+/delay 10000
+/group %m BIG-WINDOW-CODE</font>
+
+as the private chat will have the name %m, after the user.
+</font></body>

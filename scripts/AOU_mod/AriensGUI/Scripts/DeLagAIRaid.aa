@@ -1,0 +1,33 @@
+/option RealisticWater 0
+/option Wildlife 0
+/option IsSpaceShipsShown 0
+/option RealisticClouds 0
+/option SimpleClouds 0
+/option Shadows 0
+/option BuffsFX 1
+/option TracersFX 1
+/option NanoEffectFX 1
+/option MuzzleFlashFX 1
+/option EnvironmentFX 1
+/option OthersFX 1
+/option SmoothAnimations 0
+
+
+/option FogMode 1
+/option GroundRendering 0
+
+
+/option DisplayOtherTextureQuality 1
+/option DisplayTextureResolution 0
+/option GroundTextureQuality 0
+/option DisplayCompressedTextures 0
+
+
+/option ViewDistance 0.6
+/option DisplayCharViewDistance 60
+
+
+/option DisplayGroundQuality 100
+/option DisplayGroundFullQualityRadius 7
+
+/text Settings are now set to kill Aliens, enjoy the fight..

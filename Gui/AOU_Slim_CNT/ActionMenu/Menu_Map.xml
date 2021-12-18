@@ -1,0 +1,20 @@
+<Menu label="Map" name="map_menu">
+
+  <Menu label="&lt;font color=#FFBE96&gt;Custom Maps&lt;/font&gt;" name="custommaps_menu" sub_script="Menu_CustomMaps.xml" tooltip="Custom Map Menu" tooltip_body="Choose from a choice of custom designed maps">
+  </Menu>
+
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Planet Map&lt;/font&gt;" name="planetmap_window" tooltip="#PlanetmWindow" tooltip_body="#ContainAMap">
+  <Actions event="on_invoke">
+      <CloseMenu/>
+      <SetValue name="planetmap_window" value="dvalue:planetmap_window==false"/>
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Map&lt;/font&gt;" name="map_window" tooltip="#MapWindow" tooltip_body="#ContainAMap_1">
+    <Actions event="on_invoke">
+      <CloseMenu/>
+      <SetValue name="map_window" value="dvalue:map_window==false"/>
+    </Actions>
+  </MenuEntry>
+
+</Menu>

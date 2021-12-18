@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><Menu label="Team Menu">
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Team&lt;/font&gt;" name="team_view" tooltip="#TeamWindow" tooltip_body="#ContainInformaAbout">
+		<Actions event="on_invoke">
+			<CloseMenu/>
+			<SetValue name="team_view" value="dvalue:team_view==false"/>
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Raid&lt;/font&gt;" name="raid_window" tooltip="#RaidWindow" tooltip_body="#RaidWindowTooltip">
+    		<Actions event="on_invoke">
+      <SetValue name="raid_window" value="dvalue:raid_window==false"/>
+    		</Actions>
+  	</MenuEntry> 
+	
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Find Team&lt;/font&gt;" name="lft_window" tooltip="#TeamSearch" tooltip_body="#LetsYouSearch">
+		<Actions event="on_invoke">
+			<CloseMenu/>
+			<SetValue name="lft_window" value="dvalue:lft_window==false"/>
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Mission&lt;/font&gt;" name="mission_window" tooltip="#MissionWindow" tooltip_body="#ContainAllCurrent">
+		<Actions event="on_invoke">
+			<CloseMenu/>
+			<SetValue name="mission_window" value="dvalue:mission_window==false"/>
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Friends&lt;/font&gt;" name="friends_window" tooltip="#FriendsWindow" tooltip_body="#ContainAList_2">
+		<Actions event="on_invoke">
+			<CloseMenu/>
+			<SetValue name="friends_window" value="dvalue:friends_window==false"/>
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Chat Config&lt;/font&gt;" name="chat_group_window" tooltip="#ChatConfigu" tooltip_body="#OpenChatConfigu">
+		<Actions event="on_invoke">
+			<CloseMenu/>
+			<SetValue name="chat_group_window" value="dvalue:chat_group_window==false"/>
+		</Actions>
+	</MenuEntry>
+</Menu>

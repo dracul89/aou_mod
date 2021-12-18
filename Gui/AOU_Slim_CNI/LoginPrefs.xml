@@ -1,0 +1,16 @@
+<?xml version="1.0" ?><Root>
+    <!-- AOU options -->
+    <Value name="cc_menu1"  value="true" />
+    <Value name="cc_aou_viewmenu"  value="true" />
+    <Value name="cc_aou_teammenu"  value="true" />
+    <Value name="cc_aou_mapmenu"  value="true" />
+    <Value name="cc_aou_options"  value="true" />
+    <Value name="cc_aou_skillwindow" value="true" />
+    <Value name="cc_aou_perkwindow"  value="true" />
+    <Value name="cc_aou_aoumenu"  value="true" />
+    <Value name="cc_aou_perkmenu" value="true" />
+    <Value name="cc_left_wing"  value="true" />
+    <Value name="cc_right_wing"  value="true" />
+    <Value name="cc_right_bar"  value="true" />
+    <Value name="cc_left_bar"  value="true" />
+</Root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><Menu>
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Request Leet Duel&lt;/font&gt;" button_mode="button" tooltip="Request Leet Duel" tooltip_body="This requests a leet pet duel with you current target.">
+		<Actions event="on_invoke" >
+			<RunChatScript value="/petduel" />
+		</Actions>
+	</MenuEntry>
+	
+ 	<MenuEntry label="&lt;font color=#FFBE96&gt;Accept Leet Duel&lt;/font&gt;" button_mode="button" tooltip="Accept Leet Duel" tooltip_body="This accepts a leet pet duel requested by an other player.">
+		<Actions event="on_invoke" >
+			<RunChatScript value="/petduel accept" />
+		</Actions>
+	</MenuEntry>
+	
+ 	<MenuEntry label="&lt;font color=#FFBE96&gt;Decline Leet Duel&lt;/font&gt;" button_mode="button" tooltip="Decline Leet Duel" tooltip_body="This declines a leet pet duel requested by an other player.">
+		<Actions event="on_invoke" >
+			<RunChatScript value="/petduel reject" />
+		</Actions>
+	</MenuEntry>
+	
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Stop Leet Duel&lt;/font&gt;" button_mode="button" tooltip="Stop Leet Duel" tooltip_body="This stops a running leet pet duel.">
+		<Actions event="on_invoke" >
+			<RunChatScript value="/petduel stop" />
+		</Actions>
+	</MenuEntry>
+</Menu>

@@ -1,0 +1,5 @@
+/option cc_control_center 0
+/option cc_section1 0
+/option shortcutbar_window 0
+/close "Default Window"
+/close infoview

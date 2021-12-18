@@ -1,0 +1,92 @@
+<body bgcolor="#008080"><font color=CCInfoText>
+<img src='rdb://205513'>
+Using the shortcut to removing everything from the screen leaves you with one question:
+<font color=CCInfoHeader>How do I get it back?</font>
+
+There are several ways:
+<font color=CCInfoHeader>---<font color="white">1</font>---</font>
+Using the link in the panel or the macro-buton below, it will all come back automatically in 60 seconds / 1 minute.
+If you in some way interfered with the script, or want it back before the 1 menute, the following tips can help you.
+
+<font color=CCInfoHeader>---<font color="white">2</font>---</font>
+select yourself
+press "t"
+press the "Back" button<Button label='#Back' layout_borders='Rect(5,0,5,5)' name='BackButton'/>
+press the <a href="chatcmd:///script AOU_mod\AriensGUI\Scripts\MenuOn.aa">Restore Hotbars and minibar</a> link.
+
+<font color=CCInfoHeader>---<font color="white">3</font>---</font>
+place the following button on a hotbar
+<a href="chatcmd:///macro MenuOn /AOU_mod\AriensGUI\Scripts\MenuOn.aa"></u><img src=tdb://id:GFX_GUI_ICON_MACRO>Menu On</a>
+make the hotbar with the buttons the active one
+activate the button with the appropriate number-key
+eg. if it is in the 1st
+press 1 to get the menues back.
+
+<font color=ct_error>If you want the screen to stay clear, use these buttons.
+It will not turn back automaticaly if you use these:</font>
+place the following two buttons on a hotbar
+<a href="chatcmd:///macro MenuOff /AOU_mod\AriensGUI\Scripts\MenuOffPerm.aa"></u><img src=tdb://id:GFX_GUI_ICON_MACRO>Menu Off</a>
+<a href="chatcmd:///macro MenuOn /AOU_mod\AriensGUI\Scripts\MenuOn.aa"></u><img src=tdb://id:GFX_GUI_ICON_MACRO>Menu On</a>
+make the hotbar with the buttons the active one
+activate the buttons with the appropriate number-key
+eg. if off is in the 1st and on in 2nd
+press 2 to get the menues back.
+
+<font color=CCInfoHeader>---<font color="white">4</font>---</font>
+<font color=CCInfoHeader>Method 4 & 5 will work, even if you have loged off in between.
+Methods 6 & 7 will always work, even if you have uninstalled the AOU mod</font>
+Shift-C
+Doubble-click the name of the chat window you want to open.
+Type
+/AOU_mod\AriensGUI\Scripts\MenuOn.aa
+
+<font color=CCInfoHeader>---<font color="white">5</font>---</font>
+Shift-C
+Doubble-click the name of the chat window you want to open.
+Type
+/apanel
+Click "Restore Hotbars and minibar"
+
+<font color=CCInfoHeader>---<font color="white">6</font>---</font>
+Shift-C
+Doubble-click the name of the chat window you want to open.
+Type
+/option cc_control_center 1
+/option cc_section1 1
+/option shortcutbar_window 1
+/option friends_window 1
+/open "Default Window"
+
+<font color=CCInfoHeader>---<font color="white">7</font>---</font>
+Ctrl-Shift-F7
+Scroll down to cc_control_center
+Click on it
+Scroll down to cc_section1
+Click on it
+Ctrl-7
+Click the name of the chat window you want to open.
+
+<font color=CCInfoHeader>---<font color="white">further tips</font>---</font>
+The script opens the Friends vindow when you turn menues back on.
+You can turn on the chat-windows you would like there, they are in the top of the list.
+
+Right-clicking a chat-window name in the friends list gives you the option to "Enable clickthrough".
+With that feature on you can click and loot through the chat-window.
+with clickthrough enabled you have to press the Alt-key to select text in the chat window.
+
+Under Visual you can also add timestamps to the chat.
+It wil display your local time, not GMT/UTC
+(or RKST - Rubi-Ka Standard Time as roleplayers call the GMT/UTC timezone)
+
+<font color=CCInfoHeader>---<font color="white">advanced tips</font>---</font>
+The script automatically removes the chat-window called "Default Window"
+If you have more windows you would like to close automatically, add a new line with the names to the following file
+-Anarchy Online folder- \Scripts\AOU_mod\AriensGUI\Scripts\MenuOff.aa
+eg.
+/close "Combat spam"
+/close "Private groups"
+/close "Tells"
+
+You can add all the chat-windows you have on all your accounts, as the script runs very fast, and it will not give error-messages when trying to close a chat-window that is not there.
+It will remember where all your docked chat-windows belong automatically, the order of them will not be lost.
+</font></body>

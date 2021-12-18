@@ -1,0 +1,33 @@
+/option RealisticWater 0
+/option Wildlife 0
+/option IsSpaceShipsShown 0
+/option RealisticClouds 0
+/option SimpleClouds 0
+/option Shadows 0
+/option BuffsFX 0
+/option TracersFX 0
+/option NanoEffectFX 1
+/option MuzzleFlashFX 0
+/option EnvironmentFX 0
+/option OthersFX 0
+/option SmoothAnimations 0
+
+
+/option FogMode 1
+/option GroundRendering 0
+
+
+/option DisplayOtherTextureQuality 1
+/option DisplayTextureResolution 0
+/option GroundTextureQuality 0
+/option DisplayCompressedTextures 0
+
+
+/option ViewDistance 0.4
+/option DisplayCharViewDistance 40
+
+
+/option DisplayGroundQuality 100
+/option DisplayGroundFullQualityRadius 7
+
+/text Settings are now set to Raid, enjoy the fight..

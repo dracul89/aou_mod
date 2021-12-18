@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><root>
+	<View view_layout="vertical">
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<View layout_borders="Rect(3,8,0,3)" view_layout="vertical">
+				<ItemSlotView name="SrcIconSlot"/>
+				<TextView value="#Source"/>
+			</View>
+
+			<HLayoutSpacer/>
+
+			<View view_layout="vertical">
+				<TextView font="HUGE" value="#+_1"/>
+				<VLayoutSpacer max_size="15" min_size="15"/>
+			</View>
+
+			<HLayoutSpacer/>
+
+			<View layout_borders="Rect(3,8,0,3)" view_layout="vertical">
+				<ItemSlotView name="DstIconSlot"/>
+				<TextView value="#Target"/>
+			</View>
+
+			<HLayoutSpacer/>
+
+			<View view_layout="vertical">
+				<TextView font="HUGE" value="#="/>
+				<VLayoutSpacer max_size="15" min_size="15"/>
+			</View>
+			<HLayoutSpacer/>
+			<View layout_borders="Rect(3,8,0,3)" view_layout="vertical">
+				<ItemSlotView name="ResultIconSlot"/>
+				<TextView value="#Result"/>
+			</View>
+			<HLayoutSpacer/>
+			<View view_layout="vertical">
+				<Button label="#Clear" layout_borders="Rect(3,8,0,3)" name="ClearButton"/>
+				<Button label="#Build" layout_borders="Rect(3,3,0,3)" name="BuildButton"/>
+				<VLayoutSpacer/>
+			</View>
+			<HLayoutSpacer/>
+		</View>
+                <View view_layout="vertical" width_group="main" width_group_owner="parent">
+                  <View view_layout="horizontal">
+                    <TextView layout_borders="Rect(5,5,5,0)" name="TradeskillLblMin" value="#QL 1"/>
+                    <HLayoutSpacer/>
+                    <TextView layout_borders="Rect(5,5,5,0)" name="TradeskillLbl" value="#QL 300"/>
+                    <HLayoutSpacer/>
+                    <TextView layout_borders="Rect(5,5,5,0)" name="TradeskillLblMax" value="#QL 300"/>
+                  </View>
+                  <Slider layout_borders="Rect(5,5,5,5)" max_value="100" min_value="0" name="TradeskillSlider"/>
+                </View>
+                <View view_layout="horizontal">
+			<View layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+				<View view_layout="horizontal">
+					<TextView layout_borders="Rect(0,0,0,3)" value="#SourceAnalyze"/>
+					<HLayoutSpacer/>
+				</View>
+				<BorderView>
+					<TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP" h_scrollbar_mode="AUTO" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 20 )" name="SrcFeedback" v_scrollbar_mode="AUTO"/>
+				</BorderView>
+			</View>
+			<View layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+				<View view_layout="horizontal">
+					<TextView layout_borders="Rect(0,0,0,3)" value="#TargetAnalyze"/>
+					<HLayoutSpacer/>
+				</View>
+				<BorderView>
+					<TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP" h_scrollbar_mode="AUTO" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 20 )" name="DstFeedback" v_scrollbar_mode="AUTO"/>
+				</BorderView>
+			</View>
+			<View layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+				<View view_layout="horizontal">
+					<TextView layout_borders="Rect(0,0,0,3)" value="#ResultAnalyze"/>
+					<HLayoutSpacer/>
+				</View>
+				<BorderView>
+					<TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP" h_scrollbar_mode="AUTO" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 20 )" name="ResultFeedback" v_scrollbar_mode="AUTO"/>
+				</BorderView>				
+			</View>
+		</View>
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(5,0,0,3)" value="#BuildFeedbac"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView layout_borders="Rect(5,0,5,5)">
+			<TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP" h_scrollbar_mode="AUTO" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 20 )" name="BuildFeedback" v_scrollbar_mode="AUTO"/>
+		</BorderView>
+	</View>
+</root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <View>
+    <View view_layout="vertical" h_alignment="CENTER" layout_borders="Rect(10,10,10,10)">
+        <View view_layout="horizontal" h_alignment="CENTER">
+          <TextView
+            name="confirmation_text"
+            value="#ActivateCharacterWarning"
+            feature_flags="TVF_MULTILINE|TVF_WORD_WRAP"
+            min_size="Point(320,-1)"
+            max_size="Point(320, -1)"
+            layout_borders="Rect(5,5,5,0)"/>
+        </View>
+        <View view_layout="horizontal" layout_borders="Rect(0,10,0,0)">
+          <Button
+            label="#MsgBox_Yes"
+            name="ok_btn"
+            layout_borders="Rect(5,5,5,5)"/>
+          <Button
+            label="#MsgBox_Cancel"
+            name="cancel_btn"
+            layout_borders="Rect(5,5,5,5)"/>
+        </View>
+    </View>
+	</View>
+</root>

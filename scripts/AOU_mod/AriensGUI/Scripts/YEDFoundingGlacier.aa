@@ -1,0 +1,7 @@
+/drink
+/delay 500
+/me takes a sip of <a href="text://<br><font color=#DEDE42>Yuttos Energy Drink - Founding Glacier</font><br><font color=#00DE42>Quality level:</font><font color=#63AD63> 1<br><font color=#00DE42>Damage:</font><font color=#63AD63> 1-1(1)<br><font color=#00DE42>Location:</font><font color=#63AD63> RightHand LeftHand<br><font color=#00DE42>Description:<br><font color=#63AD63> Bring the cool of Penumbra to your daily life. Cool and refreshing, the Founding Glacier Five relaxes all your muscles from the inside.<br><br>    * 100% Natural & Certified Organic and Inorganic Ingredients<br>    * Lowers the body temperature<br>    * Ideal for hot climates<br>    * Carbonated<br>    * Heckler-free<br>    * Low in saturated nanos<br><br>This product is not intended to diagnose, treat, cure, or prevent any hostile nano bots.<br><center><img src='rdb://37956'></font>">Yuttos Energy Drink - Founding Glacier</a>
+/delay 9000
+/surprised
+/delay 300
+/me burps

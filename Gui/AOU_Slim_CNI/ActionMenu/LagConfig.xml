@@ -1,0 +1,186 @@
+
+<Menu>
+  <MenuEntry label="&lt;font color=#FFBE96&gt;DeLag PvP&lt;/font&gt;" button_mode="button" tooltip="" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option RealisticWater 0"  />
+      <RunChatScript value="/option Wildlife 0"  />
+      <RunChatScript value="/option IsSpaceShipsShown 0"  />
+      <RunChatScript value="/option RealisticClouds 0"  />
+      <RunChatScript value="/option SimpleClouds 0"  />
+      <RunChatScript value="/option Shadows 0"  />
+      <RunChatScript value="/option BuffsFX 1"  />
+      <RunChatScript value="/option TracersFX 1"  />
+      <RunChatScript value="/option NanoEffectFX 1"  />
+      <RunChatScript value="/option MuzzleFlashFX 1"  />
+      <RunChatScript value="/option EnvironmentFX 0"  />
+      <RunChatScript value="/option OthersFX 1"  />
+      <RunChatScript value="/option SmoothAnimations 0"  />
+
+      <RunChatScript value="/option FogMode 0"  />
+      <RunChatScript value="/option GroundRendering 1"  />
+
+      <RunChatScript value="/option DisplayOtherTextureQuality 1"  />
+      <RunChatScript value="/option DisplayTextureResolution 0"  />
+      <RunChatScript value="/option GroundTextureQuality 0"  />
+      <RunChatScript value="/option DisplayCompressedTextures 0"  />
+
+      <RunChatScript value="/option ViewDistance 0.6"  />
+      <RunChatScript value="/option DisplayCharViewDistance 80"  />
+
+      <RunChatScript value="/option DisplayGroundQuality 100"  />
+      <RunChatScript value="/option DisplayGroundFullQualityRadius 7"  />
+    </Actions>
+  </MenuEntry>
+ 
+  <MenuEntry label="&lt;font color=#FFBE96&gt;DeLag Raid&lt;/font&gt;" button_mode="button" tooltip="" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option RealisticWater 0"  />
+      <RunChatScript value="/option Wildlife 0"  />
+      <RunChatScript value="/option IsSpaceShipsShown 0"  />
+      <RunChatScript value="/option RealisticClouds 0"  />
+      <RunChatScript value="/option SimpleClouds 0"  />
+      <RunChatScript value="/option Shadows 0"  />
+      <RunChatScript value="/option BuffsFX 0"  />
+      <RunChatScript value="/option TracersFX 1"  />
+      <RunChatScript value="/option NanoEffectFX 0"  />
+      <RunChatScript value="/option MuzzleFlashFX 0"  />
+      <RunChatScript value="/option EnvironmentFX 0"  />
+      <RunChatScript value="/option OthersFX 0"  />
+      <RunChatScript value="/option SmoothAnimations 0"  />
+
+      <RunChatScript value="/option FogMode 1"  />
+      <RunChatScript value="/option GroundRendering 0"  />
+
+      <RunChatScript value="/option DisplayOtherTextureQuality 1"  />
+      <RunChatScript value="/option DisplayTextureResolution 0"  />
+      <RunChatScript value="/option GroundTextureQuality 0"  />
+      <RunChatScript value="/option DisplayCompressedTextures 0"  />
+
+      <RunChatScript value="/option ViewDistance 0.4"  />
+      <RunChatScript value="/option DisplayCharViewDistance 40"  />
+
+      <RunChatScript value="/option DisplayGroundQuality 100"  />
+      <RunChatScript value="/option DisplayGroundFullQualityRadius 7"  />
+    </Actions>
+  </MenuEntry>
+ 
+  <MenuEntry label="&lt;font color=#FFBE96&gt;DeLag Alien Raid&lt;/font&gt;" button_mode="button" tooltip="" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option RealisticWater 0"  />
+      <RunChatScript value="/option Wildlife 0"  />
+      <RunChatScript value="/option IsSpaceShipsShown 0"  />
+      <RunChatScript value="/option RealisticClouds 0"  />
+      <RunChatScript value="/option SimpleClouds 0"  />
+      <RunChatScript value="/option Shadows 0"  />
+      <RunChatScript value="/option BuffsFX 1"  />
+      <RunChatScript value="/option TracersFX 1"  />
+      <RunChatScript value="/option NanoEffectFX 1"  />
+      <RunChatScript value="/option MuzzleFlashFX 1"  />
+      <RunChatScript value="/option EnvironmentFX 1"  />
+      <RunChatScript value="/option OthersFX 1"  />
+      <RunChatScript value="/option SmoothAnimations 0"  />
+
+      <RunChatScript value="/option FogMode 0"  />
+      <RunChatScript value="/option GroundRendering 1"  />
+
+      <RunChatScript value="/option DisplayOtherTextureQuality 1"  />
+      <RunChatScript value="/option DisplayTextureResolution 0"  />
+      <RunChatScript value="/option GroundTextureQuality 0"  />
+      <RunChatScript value="/option DisplayCompressedTextures 0"  />
+
+      <RunChatScript value="/option ViewDistance 0.6"  />
+      <RunChatScript value="/option DisplayCharViewDistance 60"  />
+
+      <RunChatScript value="/option DisplayGroundQuality 100"  />
+      <RunChatScript value="/option DisplayGroundFullQualityRadius 7"  />
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Default View&lt;/font&gt;" button_mode="button" tooltip="" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option RealisticWater 1"  />
+      <RunChatScript value="/option Wildlife 1"  />
+      <RunChatScript value="/option IsSpaceShipsShown 1"  />
+      <RunChatScript value="/option RealisticClouds 1"  />
+      <RunChatScript value="/option SimpleClouds 1"  />
+      <RunChatScript value="/option Shadows 1"  />
+      <RunChatScript value="/option BuffsFX 1"  />
+      <RunChatScript value="/option TracersFX 1"  />
+      <RunChatScript value="/option NanoEffectFX 1"  />
+      <RunChatScript value="/option MuzzleFlashFX 1"  />
+      <RunChatScript value="/option EnvironmentFX 1"  />
+      <RunChatScript value="/option OthersFX 1"  />
+      <RunChatScript value="/option SmoothAnimations 1"  />
+
+      <RunChatScript value="/option FogMode 0"  />
+      <RunChatScript value="/option GroundRendering 1"  />
+
+      <RunChatScript value="/option DisplayOtherTextureQuality 3"  />
+      <RunChatScript value="/option DisplayTextureResolution 1"  />
+      <RunChatScript value="/option GroundTextureQuality 2"  />
+      <RunChatScript value="/option DisplayCompressedTextures 0"  />
+
+      <RunChatScript value="/option ViewDistance 0.6"  />
+      <RunChatScript value="/option DisplayCharViewDistance 80"  />
+
+      <RunChatScript value="/option DisplayGroundQuality 200"  />
+      <RunChatScript value="/option DisplayGroundFullQualityRadius 32"  />
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Full View&lt;/font&gt;" button_mode="button" tooltip="" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option RealisticWater 1"  />
+      <RunChatScript value="/option Wildlife 1"  />
+      <RunChatScript value="/option IsSpaceShipsShown 1"  />
+      <RunChatScript value="/option RealisticClouds 1"  />
+      <RunChatScript value="/option SimpleClouds 1"  />
+      <RunChatScript value="/option Shadows 1"  />
+      <RunChatScript value="/option BuffsFX 1"  />
+      <RunChatScript value="/option TracersFX 1"  />
+      <RunChatScript value="/option NanoEffectFX 1"  />
+      <RunChatScript value="/option MuzzleFlashFX 1"  />
+      <RunChatScript value="/option EnvironmentFX 1"  />
+      <RunChatScript value="/option OthersFX 1"  />
+      <RunChatScript value="/option SmoothAnimations 1"  />
+
+      <RunChatScript value="/option FogMode 0"  />
+      <RunChatScript value="/option GroundRendering 1"  />
+
+      <RunChatScript value="/option DisplayOtherTextureQuality 3"  />
+      <RunChatScript value="/option DisplayTextureResolution 1"  />
+      <RunChatScript value="/option GroundTextureQuality 2"  />
+      <RunChatScript value="/option DisplayCompressedTextures 0"  />
+
+      <RunChatScript value="/option ViewDistance 1.0"  />
+      <RunChatScript value="/option DisplayCharViewDistance 80"  />
+
+      <RunChatScript value="/option DisplayGroundQuality 200"  />
+      <RunChatScript value="/option DisplayGroundFullQualityRadius 44"  />
+    </Actions>
+  </MenuEntry>
+
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Reduce View Distance&lt;/font&gt;" button_mode="button" tooltip="Reduce View Distance" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option ViewDistance 0.4" />
+    </Actions>
+  </MenuEntry>
+ 
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Max View Distance&lt;/font&gt;" button_mode="button" tooltip="Max View Distance" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option ViewDistance 1.00" />
+    </Actions>
+  </MenuEntry>
+ 
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Reduce Char Distance&lt;/font&gt;" button_mode="button" tooltip="Reduce Char Distance" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option DisplayCharViewDistance 40" />
+    </Actions>
+  </MenuEntry>
+ 
+  <MenuEntry label="&lt;font color=#FFBE96&gt;Max Char Distance&lt;/font&gt;" button_mode="button" tooltip="Max Char Distance" tooltip_body="">
+    <Actions event="on_invoke" >
+      <RunChatScript value="/option DisplayCharViewDistance 80" />
+    </Actions>
+  </MenuEntry>
+</Menu>

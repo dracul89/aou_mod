@@ -1,0 +1,118 @@
+<?xml version="1.0" ?><root>
+
+        <View name="PlayerTrade" view_layout="vertical">
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#BoughtItems"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="PartnerInventoryDock"/>
+		</BorderView>
+
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(3,3,3,3)" value="#Credits"/>
+			<HLayoutSpacer/>
+			<TextInputView layout_borders="Rect(3,3,3,3)" max_size="Point(90,-1)" min_size="Point(90,-1)" name="PartnerCashView" value="0"/>
+		</View>
+
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#SoldItems"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="OurInventoryDock"/>
+		</BorderView>
+
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(3,3,3,3)" value="#Credits"/>
+			<HLayoutSpacer/>
+			<TextInputView layout_borders="Rect(3,3,3,3)" max_size="Point(90,-1)" min_size="Point(90,-1)" name="OurCashView" value=""/>
+		</View>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<Button label="#Accept" layout_borders="Rect(5,5,5,5)" name="AcceptButton"/>
+			<Button label="#Decline" layout_borders="Rect(0,5,5,5)" name="DeclineButton"/>
+			<View layout_borders="Rect(0,5,5,5)" name="PartnerStatusDock"/>
+		</View>
+	</View>	
+
+
+
+
+        <View name="ShopTrade" view_layout="vertical">
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#Shop"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="ShopInventoryDock"/>
+		</BorderView>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#BoughtItems"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="PartnerInventoryDock"/>
+		</BorderView>
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(3,3,3,3)" value="#Credits"/>
+			<HLayoutSpacer/>
+			<TextInputView layout_borders="Rect(3,3,3,3)" max_size="Point(90,-1)" min_size="Point(90,-1)" name="PartnerCashView" value="0"/>
+		</View>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#SoldItems"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="OurInventoryDock"/>
+		</BorderView>
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(3,3,3,3)" value="#Credits"/>
+			<HLayoutSpacer/>
+			<TextInputView layout_borders="Rect(3,3,3,3)" max_size="Point(90,-1)" min_size="Point(90,-1)" name="OurCashView" value="0"/>
+		</View>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<Button label="#Accept" layout_borders="Rect(5,5,5,5)" name="AcceptButton"/>
+			<Button label="#Decline" layout_borders="Rect(0,5,5,5)" name="DeclineButton"/>
+		</View>
+	</View>	
+
+
+
+
+        <View name="ShopBuy" view_layout="vertical">
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#Shop"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="ShopInventoryDock"/>
+		</BorderView>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<TextView layout_borders="Rect(3,5,3,3)" value="#BoughtItems"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView>
+			<View name="PartnerInventoryDock"/>
+		</BorderView>
+		<View view_layout="horizontal">
+			<TextView layout_borders="Rect(3,3,3,3)" value="#Credits"/>
+			<HLayoutSpacer/>
+			<TextInputView layout_borders="Rect(3,3,3,3)" max_size="Point(90,-1)" min_size="Point(90,-1)" name="PartnerCashView" value="0"/>
+		</View>
+		<View view_layout="horizontal">
+			<HLayoutSpacer/>
+			<Button label="#Accept" layout_borders="Rect(5,5,5,5)" name="AcceptButton"/>
+			<Button label="#Decline" layout_borders="Rect(0,5,5,5)" name="DeclineButton"/>
+		</View>
+	</View>	
+
+</root>

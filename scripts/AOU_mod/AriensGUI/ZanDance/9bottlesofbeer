@@ -1,0 +1,86 @@
+/ 9 bottles of beer on the wall, 9 bottles of beer.
+/speech
+/delay 3000
+/drink
+/delay 1000
+/ Take one down, pass it around, 8 bottles of beer on the wall.
+/delay 1000
+/scared
+/delay 3000
+/ 8 bottles of beer on the wall, 8 bottles of beer.
+/cross
+/delay 1000
+/fishsize
+/delay 2500
+/drink
+/delay 500
+/ Take one down, pass it around, 7 bottles of beer on the wall.
+/delay 1000
+/pointba
+/delay 3000
+/surprised
+/ 7 bottles of beer on the wall, 7 bottles of beer.
+thumbs
+/delay 2000
+/kisshigh
+/delay 2000
+/ Take one down, pass it around, 6 bottles of beer on the wall.
+/delay 2000
+/itch
+/delay 2000
+/ 6 bottles of beer on the wall, 6 bottles of beer.
+/nod
+/delay 2000
+/drink
+/delay 2000
+/pointfor
+/ Take one down, pass it around, 5 bottles of beer on the wall.
+/delay 2000
+/kisshigh
+/delay 2000
+/ 5 bottles of beer on the wall, 5 bottles of beer.
+/delay 2000
+/adjust
+/delay 2000
+/shake
+/ Take one down, pass it around, 4 bottles of beer on the wall.
+/delay 2000
+/giggle
+/delay 2000
+/spit
+/ 4 bottles of beer on the wall, 4 bottles of beer.
+/delay 2000
+/pointba
+/delay 2000
+/shrug
+/ Take one down, pass it around, 3 bottles of beer on the wall.
+/delay 1500
+/italian
+/delay 2500
+/ 3 bottles of beer on the wall, 3 bottles of beer.
+/delay 1000
+/drink
+/delay 1000
+/delay 2000
+/pointfor
+/ Take one down, pass it around, 2 bottles of beer on the wall.
+/delay 2000
+/rocky
+/delay 2000
+/ 2 bottles of beer on the wall, 2 bottles of beer.
+/delay 2000
+/drink
+/delay 2000
+/ Take one down, pass it around, 1 bottles of beer on the wall.
+/puke
+/delay 4000
+/ 1 bottles of beer on the wall, 1 bottles of beer.
+/thumbs
+/delay 2500
+/curt
+/tell Zanthyna I can't believe it, I just drank 99 bottles of beer!
+/delay 1500
+/ Whew, that song is finally over!
+/delay 2500
+/giggle
+/ So, who wants to hear it again?

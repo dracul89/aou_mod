@@ -1,0 +1,5 @@
+/option DisableInspect 0
+/text Inspect on (5 min)
+/delay 300000
+/option DisableInspect 1
+/text Inspect off

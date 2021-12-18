@@ -1,0 +1,180 @@
+<?xml version="1.0" standalone="yes"?>
+<root>
+  <View view_layout="vertical" name="parent">
+    <BorderView view_layout="horizontal" >
+      <TextView value="Available Improvement Points:" font="LARGE" layout_borders="Rect(2,0,3,0)" name="remaining_ip_lbl"/>
+      <HLayoutSpacer/>
+      <TextView value="100000000" font="LARGE" layout_borders="Rect(1,0,3,0)" name="remaining_ip" />
+      <Button name="Accept" label="Save" layout_borders="Rect(0,0,0,0)"/>
+      <Button name="Quit" label="Close" layout_borders="Rect(0,0,0,0)"/>
+    </BorderView>
+    <View view_layout="horizontal" name="top_line">
+      <BorderView view_layout="horizontal"  layout_borders="Rect(0,0,0,0)" width_group="main" width_group_owner="parent" >
+        <Button name="suggest_ip" label="Suggested IP distribution" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+      </BorderView>
+      <BorderView view_layout="vertical"  layout_borders="Rect(0,0,0,0)" width_group="right_group" width_group_owner="parent" >
+        <TextView value="" name="status" layout_borders="Rect(2,2,2,2)" min_size="Point(0,0)" max_size="Point(10000,10000)"/>
+      </BorderView>
+    </View>
+    <View view_layout="horizontal" >
+      <BorderView view_layout="vertical" layout_borders="Rect(0,0,0,0)" width_group="main" width_group_owner="parent">
+        <ScrollView v_scrollbar_mode="auto" layout_borders="Rect(0,0,0,0)" >
+          <ScrollViewChild view_layout="vertical" name="scroller" layout_borders="Rect(0,0,0,0)">
+            <Button label="Abilities" name="abilities" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="abilities_view" layout_borders="Rect(0,0,0,0)" >
+            </BorderView>
+            <Button label="Body" name="body" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="body_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button label="Melee" name="melee" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="melee_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="misc" label="Misc Weapons" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="misc_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="ranged" label="Ranged" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="ranged_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="speed" label="Speed" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="speed_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="traderepair" label="Trade &amp; Repair" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="traderepair_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="nanoaiding" label="Nano &amp; Aiding" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="nanoaiding_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="spying" label="Spying" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="spying_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <Button name="navigation" label="Navigation" layout_borders="Rect(0,0,0,0)" width_group="buttons" width_group_owner="parent"/>
+            <BorderView view_layout="vertical" name="navigation_view" layout_borders="Rect(0,0,0,0)">
+            </BorderView>
+            <VLayoutSpacer/>
+          </ScrollViewChild>
+        </ScrollView>
+      </BorderView>
+      <View view_layout="vertical"  layout_borders="Rect(0,0,0,0)" width_group="right_group" width_group_owner="parent" name="info_area">
+        <ViewSelector name="infoselect">
+          <BorderView name="inittext" view_layout="vertical">
+            <TextView value="The Skill System
+            
+Your skills define what you can do, and how good you are at it. Items have skill requirements for using and/or equipping them, nano programs have skill requirements for uploading and executing them.
+
+At each level your character is awarded a certain amount of Improvement Points (IPs). These IPs allow you to raise the skills that in turn allow you to use better weapons, armour, nano-programs and other general equipment.
+
+It is not possible to maximize all the skills, as you are not awarded enough IPs to do so; therefore you have to concentrate on the areas of most use to your character.
+
+If you are new to Anarchy Online we suggest you use the &#8216;Suggested IP Distribution&#8217; option to allocate your skills. This option will be available to you until level 20.
+
+More detailed information on the skill view can be found in the help system. You can access this by clicking the &#8216;?&#8217; in the upper right corner of this window." 
+ layout_borders="Rect(2,2,2,2)" max_size="Point(10000,-1)" feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ALLOW_TEXT_SELECTION"/>
+            <VLayoutSpacer/>
+          </BorderView>
+          <View name="info" view_layout="vertical">
+            <BorderView view_layout="vertical" layout_borders="Rect(0,0,0,0)">
+              <ViewSelector name="groupselect">
+                <View view_layout="vertical" name="abilities_group" layout_borders="Rect(0,0,0,0)" >
+                </View>
+                <View view_layout="vertical" name="body_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="melee_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="misc_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="ranged_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="speed_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="traderepair_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="nanoaiding_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="spying_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+                <View view_layout="vertical" name="navigation_group" layout_borders="Rect(0,0,0,0)">
+                </View>
+              </ViewSelector>
+              <VLayoutSpacer/>
+            </BorderView>
+            <BorderView view_layout="vertical">
+              <View view_layout="vertical" name="statdetails">
+                <TextView name="statName" font="HUGE" value="" layout_borders="Rect(2,0,2,0)" max_size="Point(10000,25)" min_size="Point(-1,25)" feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ALLOW_TEXT_SELECTION"/>
+                <View view_layout="horizontal" >
+                  <View view_layout="vertical" >
+                    <View view_layout="horizontal" >
+                      <TextView value="Base Skill:" layout_borders="Rect(2,1,0,0)" max_size="Point(130,-1)" min_size="Point(130,-1)"/>
+                      <TextView value="" name="base" layout_borders="Rect(0,1,1,0)" max_size="Point(50,-1)" min_size="Point( 50,-1)" />
+                      <HLayoutSpacer/>
+                    </View>
+                    <View view_layout="vertical" name="details1">
+                      <View view_layout="horizontal" >
+                        <TextView value="Buffed Skill:" layout_borders="Rect(2,1,0,0)" max_size="Point(130,-1)" min_size="Point(130,-1)" />
+                        <TextView value="" name="buffed" layout_borders="Rect(0,1,1,0)" max_size="Point(50,-1)" min_size="Point( 50,-1)"/>
+                        <HLayoutSpacer/>
+                      </View>
+                      <View view_layout="horizontal" >
+                        <TextView value="Maximum skill allowed:" layout_borders="Rect(2,1,0,0)" max_size="Point(130,-1)" min_size="Point(130,-1)" />
+                        <TextView value="" name="maxskill" layout_borders="Rect(0,1,1,0)" max_size="Point(50,-1)" min_size="Point( 50,-1)"/>
+                        <HLayoutSpacer/>
+                      </View>
+                    </View>
+                  </View>
+                  <View view_layout="vertical" >
+                    <View view_layout="horizontal" >
+                      <TextView value="Current Improvement:" layout_borders="Rect(1,1,1,0)" max_size="Point(130,-1)" min_size="Point(130,-1)" />
+                      <TextView value="" name="pointdelta" layout_borders="Rect(0,1,2,0)" max_size="Point(50,-1)" min_size="Point( 50,-1)" />
+                      <HLayoutSpacer/>
+                    </View>
+                    <View view_layout="vertical" name="details2">
+                      <View view_layout="horizontal" >
+                        <TextView value="Cost to improve:" layout_borders="Rect(1,1,1,0)" max_size="Point(130,-1)" min_size="Point(130,-1)" />
+                        <TextView value="" name="unitcost" layout_borders="Rect(0,1,2,0)" max_size="Point(50,-1)" min_size="Point( 50,-1)"/>
+                        <HLayoutSpacer/>
+                      </View>
+                      <View view_layout="horizontal" >
+                        <TextView value="Total cost:" layout_borders="Rect(1,1,1,0)" max_size="Point(130,-1)" min_size="Point(130,-1)" />
+                        <TextView value="" name="totalcost" layout_borders="Rect(0,1,2,0)" max_size="Point(50,-1)" min_size="Point( 50,-1)" />
+                        <HLayoutSpacer/>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <TextView name="statdesc" value="" layout_borders="Rect(2,5,2,0)" min_size="Point(100,62)" max_size="Point(10000,-1)" feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ALLOW_TEXT_SELECTION" />
+                <VLayoutSpacer/>
+                <View view_layout="horizontal">
+                  <View view_layout="horizontal">
+                    <TextView value="Remaining reset points:" layout_borders="Rect(2,1,1,1)" />
+                    <TextView value="" name="rp" layout_borders="Rect(1,1,1,1)" />
+                  </View>
+                  <View view_layout="horizontal" name="resetView">
+                    <Button label="Reset this skill" name="reset" layout_borders="Rect(0,0,0,0)"/>
+                  </View>
+                  <HLayoutSpacer/>
+                </View>
+              </View>
+            </BorderView>
+          </View>
+          <BorderView name="autodist" view_layout="vertical">
+            <TextView value="The automatic IP distribution has now completed.
+            
+You are welcome to do adjustments to the setup to better fit your wishes.
+
+You have to save changes before exiting this window to keep your changes.
+
+The following skills have been modified:"
+ layout_borders="Rect(2,2,2,2)" max_size="Point(10000,-1)" feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ALLOW_TEXT_SELECTION"/>
+            <View view_layout="horizontal" >
+              <View view_layout="vertical" name="col1">
+              </View>
+              <HLayoutSpacer/>
+              <View view_layout="vertical" name="col2">
+              </View>
+            </View>
+            <VLayoutSpacer/>
+          </BorderView>
+        </ViewSelector>
+      </View>
+    </View>
+  </View>
+</root>

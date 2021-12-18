@@ -1,0 +1,7 @@
+/drink
+/delay 500
+/me takes a sip of <a href="text://<br><font color=#DEDE42>Yuttos Energy Drink - Halcyon Creed</font><br><font color=#00DE42>Quality level:</font><font color=#63AD63> 1<br><font color=#00DE42>Damage:</font><font color=#63AD63> 1-1(1)<br><font color=#00DE42>Location:</font><font color=#63AD63> RightHand LeftHand<br><font color=#00DE42>Description:<br><font color=#63AD63> Out on the town? Then burn up the dance floor with the Halcyon Creed carbonated energy drink. This drink is guaranteed to get your body hustling tonight.<br><br>    * 12% Real Yuttos Juice ™<br>    * Increases the body temperature<br>    * Ideal for cold climates<br>    * Non-Carbonated<br><br>Caution: Do not consume Halcyon Creed when active in volcanos or other extreme heat environments. Heat stroke can occur.<br><center><img src='rdb://37948'></font>">Yuttos Energy Drink - Halcyon Creed</a>
+/delay 9000
+/surprised
+/delay 300
+/me burps

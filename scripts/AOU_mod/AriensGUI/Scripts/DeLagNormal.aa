@@ -1,0 +1,33 @@
+/option RealisticWater 1
+/option Wildlife 1
+/option IsSpaceShipsShown 1
+/option RealisticClouds 1
+/option SimpleClouds 0
+/option Shadows 1
+/option BuffsFX 1
+/option TracersFX 1
+/option NanoEffectFX 1
+/option MuzzleFlashFX 1
+/option EnvironmentFX 1
+/option OthersFX 1
+/option SmoothAnimations 1
+
+
+/option FogMode 0
+/option GroundRendering 1
+
+
+/option DisplayOtherTextureQuality 3
+/option DisplayTextureResolution 1
+/option GroundTextureQuality 2
+/option DisplayCompressedTextures 0
+
+
+/option ViewDistance 0.4
+/option DisplayCharViewDistance 40
+
+
+/option DisplayGroundQuality 200
+/option DisplayGroundFullQualityRadius 32
+
+/text Settings are now set to Normal play, enjoy your stay on Rubi-Ka..

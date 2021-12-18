@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<Root>
+	<View h_alignment="LEFT" view_layout="vertical">
+		<View v_alignment="BOTTOM" view_layout="horizontal">
+			<View h_alignment="LEFT" view_layout="vertical">
+				<TextView layout_borders="Rect(2,0,0,0)" value="#Side:"/>			 
+				<DropdownMenu layout_borders="Rect(0,0,0,0)" name="Side"/>
+			</View>
+			<View h_alignment="LEFT" view_layout="vertical">
+				<TextView layout_borders="Rect(2,0,0,0)" value="#Locatio"/>
+				<DropdownMenu layout_borders="Rect(0,0,0,0)" name="Location"/>
+			</View>
+			<View h_alignment="LEFT" view_layout="vertical">
+				<TextView layout_borders="Rect(2,0,0,0)" value="#Profess"/>
+				<DropdownMenu layout_borders="Rect(0,0,0,0)" name="Profession"/>
+			</View>
+			<Button label="#Search" layout_borders="Rect(0,0,0,0)" name="Search"/>
+			<HLayoutSpacer/>
+		</View>
+		<BorderView layout_borders="Rect(0,2,0,0)" name="CandidateView"/>
+		<View h_alignment="LEFT" view_layout="horizontal">
+			<Button label="#InviteToTeam" layout_borders="Rect(0,0,0,0)" name="Invite"/>
+			<Button label="#SendTell" layout_borders="Rect(0,0,0,0)" name="Tell"/>
+			<HLayoutSpacer/>
+		</View>
+		<View h_alignment="LEFT" view_layout="horizontal">
+			<TextView layout_borders="Rect(2,0,0,0)" value="#LookingForTeam:"/>
+			<CheckBox label="" layout_borders="Rect(0,0,0,0)" name="LFT"/>
+			<TextView layout_borders="Rect(0,0,0,0)" value="#PersonaDescrip"/>
+			<TextInputView label="" layout_borders="Rect(0,0,0,0)" max_size="Point(500,-1)" min_size="Point(80,-1)" name="Description"/>
+			<HLayoutSpacer/>
+		</View>
+	</View>
+</Root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+ <View h_alignment="LEFT" view_layout="horizontal">
+  <View>
+   <BitmapView name="profession_icon"/>
+  </View>
+  <View h_alignment="LEFT" view_layout="vertical">
+   <PowerBar bg_gfx="GFX_GUI_SHORT_HOR_BAR_EMPTY" full_gfx="GFX_GUI_SHORT_HOR_BAR_RED" name="health_bar"/>
+   <PowerBar bg_gfx="GFX_GUI_SHORT_THIN_HOR_BAR_EMPTY" full_gfx="GFX_GUI_SHORT_THIN_HOR_BAR_BLUE" name="nano_bar"/>
+  </View>
+ </View>
+</root>

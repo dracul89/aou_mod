@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><Menu>
+	<Menu bgicon="id:GFX_GUI_CC_ICONS_OPTIONS" name="other_menu" sub_script="Menu_Other.xml" tooltip="Other Menu" tooltip_body="Contains other options and windows.">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="aou_menu" value="false"/>
+			<SetValue name="team_menu" value="false"/>
+			<SetValue name="char_menu" value="false"/>
+			<SetValue name="map_menu" value="false"/>
+			<SetValue name="perk_menu" value="false"/>
+		</Actions>
+	</Menu>
+</Menu>

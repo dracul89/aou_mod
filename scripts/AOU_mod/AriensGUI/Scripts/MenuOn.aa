@@ -1,0 +1,8 @@
+/option cc_control_center 1
+/option cc_section1 1
+/option shortcutbar_window 1
+/option friends_window 1
+/option ShowFightTargetNCU 1
+/option ShowNanoTargetNCU 1
+/open "Default Window"
+/text Menu is now displayed

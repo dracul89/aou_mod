@@ -1,0 +1,127 @@
+<?xml version="1.0" ?><Menu label="Others Menu">
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Nano Window&lt;/font&gt;" name="nano_window" tooltip="#NanoWindow" tooltip_body="#ContainAllNano-pr">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="nano_window" value="dvalue:nano_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;NCU Window&lt;/font&gt;" name="ncu_window" tooltip="#NcuWindow" tooltip_body="#NanoControlUnits">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="ncu_window" value="dvalue:ncu_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Tradeskill Window&lt;/font&gt;" name="tradeskill_window" tooltip="#Tradesk" tooltip_body="#OpenTheTradesk">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="tradeskill_window" value="dvalue:tradeskill_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<Menu label="&lt;font color=#FFBE96&gt;Lag Config&lt;/font&gt;" sub_script="LagConfig.xml" name="lag_menu" tooltip="Anti-Lag configuration" tooltip_body="Opens a menu where you can switch several options to reduce client lag">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="leet_menu" value="false"/>
+			<SetValue name="pet_menu" value="false"/>
+			<SetValue name="attack_menu" value="false"/>
+			<SetValue name="action_menu" value="false"/>
+			<SetValue name="emote_menu" value="false"/>
+			<SetValue name="camera_menu" value="false"/>
+
+		</Actions>
+	</Menu>
+
+	<Menu label="&lt;font color=#FFBE96&gt;Leet Pets&lt;/font&gt;" sub_script="LeetPets.xml" name="leet_menu" tooltip="Leet Pets" tooltip_body="Opens a menu to help you control your Leet Pet">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="lag_menu" value="false"/>
+			<SetValue name="pet_menu" value="false"/>
+			<SetValue name="attack_menu" value="false"/>
+			<SetValue name="action_menu" value="false"/>
+			<SetValue name="emote_menu" value="false"/>
+			<SetValue name="camera_menu" value="false"/>
+		</Actions>
+	</Menu>
+
+	<Menu label="&lt;font color=#FFBE96&gt;Pets&lt;/font&gt;" sub_script="PetMenu.xml" name="pet_menu" tooltip="#PetCommand" tooltip_body="#ContainAList" criteria="s:npcnumpets!=0">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="lag_menu" value="false"/>
+			<SetValue name="leet_menu" value="false"/>
+			<SetValue name="attack_menu" value="false"/>
+			<SetValue name="action_menu" value="false"/>
+			<SetValue name="emote_menu" value="false"/>
+			<SetValue name="camera_menu" value="false"/>
+		</Actions>
+	</Menu>
+	
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Pet Info&lt;/font&gt;" name="pet_window" tooltip="#PetInfo" tooltip_body="#GivesYouA" criteria="s:npcnumpets!=0">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="pet_window" value="dvalue:pet_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<Menu label="&lt;font color=#FFBE96&gt;Attack Actions&lt;/font&gt;" name="attack_menu" special_action_category="AM_CATEGORY_ATTACK" criteria="active_item_count>0" tooltip="Special Attacks" tooltip_body="This gives you a list of your special attacks.">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="lag_menu" value="false"/>
+			<SetValue name="leet_menu" value="false"/>
+			<SetValue name="pet_menu" value="false"/>
+			<SetValue name="action_menu" value="false"/>
+			<SetValue name="emote_menu" value="false"/>
+			<SetValue name="camera_menu" value="false"/>
+		</Actions>
+	</Menu>
+	
+	<Menu label="&lt;font color=#FFBE96&gt;Normal Actions&lt;/font&gt;" special_action_category="AM_CATEGORY_NORMAL" name="action_menu" criteria="active_item_count>0" tooltip="Normal Actions" tooltip_body="This gives you a list of your normal actions.">
+		<ItemTemplate action_name="invite person to your team" label="#Invite" tooltip_body="This will invite your current target to your team. You have to be the teams leader or without a team to do this." />
+		<ItemTemplate action_name="suspended animation" label="#Quit" tooltip="#ExitTheGame" tooltip_body="This will exit Anarchy Online. You have to sit to be able to log out regulary." />
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="lag_menu" value="false"/>
+			<SetValue name="leet_menu" value="false"/>
+			<SetValue name="pet_menu" value="false"/>
+			<SetValue name="attack_menu" value="false"/>
+			<SetValue name="emote_menu" value="false"/>
+			<SetValue name="camera_menu" value="false"/>
+		</Actions>
+	</Menu>
+	
+	<MenuEntry criteria="(stat:expansion &amp; 32)" label="&lt;font color=#FFBE96&gt;Vehicle&lt;/font&gt;" name="mechselect_window" tooltip="Order Vehicle" tooltip_body="Order various vehicles developed through the global research system.">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="mechselect_window" value="dvalue:mechselect_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<Menu label="&lt;font color=#FFBE96&gt;Emotes&lt;/font&gt;" sub_script="SocialMenu.xml" name="emote_menu" tooltip="#SocialEmotes" tooltip_body="#ContainAList_1">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="lag_menu" value="false"/>
+			<SetValue name="leet_menu" value="false"/>
+			<SetValue name="pet_menu" value="false"/>
+			<SetValue name="attack_menu" value="false"/>
+			<SetValue name="action_menu" value="false"/>
+			<SetValue name="camera_menu" value="false"/>
+		</Actions>
+	</Menu>
+
+	<Menu label="&lt;font color=#FFBE96&gt;Camera&lt;/font&gt;" sub_script="CameraMenu.xml" name="camera_menu" tooltip="#CameraMode" tooltip_body="#ChangeYourCamera">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="lag_menu" value="false"/>
+			<SetValue name="leet_menu" value="false"/>
+			<SetValue name="pet_menu" value="false"/>
+			<SetValue name="attack_menu" value="false"/>
+			<SetValue name="action_menu" value="false"/>
+			<SetValue name="emote_menu" value="false"/>
+		</Actions>
+	</Menu>
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Settings&lt;/font&gt;" name="optionpanel_window" tooltip="#Setting" tooltip_body="#OpenTheOptions">
+		<Actions event="on_invoke">
+			<CloseMenu />
+			<SetValue name="optionpanel_window" value="dvalue:optionpanel_window==false" />
+		</Actions>
+	</MenuEntry>
+
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Help&lt;/font&gt;" tooltip="#Help" tooltip_body="#OpenTheHelp">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="Help" value="/help"/> </Actions>
+	</MenuEntry>
+</Menu>

@@ -1,0 +1,7 @@
+/drink
+/delay 500
+/me takes a sip of <a href="text://<br><font color=#DEDE42>Yuttos Energy Drink - Clear Thought</font><br><font color=#00DE42>Quality level:</font><font color=#63AD63> 1<br><font color=#00DE42>Damage:</font><font color=#63AD63> 1-1(1)<br><font color=#00DE42>Location:</font><font color=#63AD63> RightHand LeftHand<br><font color=#00DE42>Description:<br><font color=#63AD63> Here’s an energy drink hybrid created especially for those athletes that excercise more esoteric muscles. An all-in-one energy drink and isotonic energy drink that will let you push it to the max while staying perfectly hydrated - a much better alternative than coffee.<br><br>    * 12% Real Yuttos Juice™<br>    * Enhances mental capacity<br>    * Carbonated<br>    * No draw-down or crashes<br>    * Leet-milk free<br><br>This product is not intended to diagnose, treat, cure, or prevent any hostile nano bots.<br><center><img src='rdb://37950'></font>">Yuttos Energy Drink - Clear Thought</a>
+/delay 9000
+/surprised
+/delay 300
+/me burps

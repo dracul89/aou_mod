@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><root>
+  <View view_layout="horizontal">
+    <View view_layout="vertical">
+      <View>
+        <TextView
+          layout_borders="Rect(3,3,3,3)"
+          value="Depositing items and/or credits may take up to several minutes complete."
+          feature_flags="TVF_MULTILINE|TVF_WORD_WRAP"
+          max_size="Point(270,-1)"
+          min_size="Point(270,-1)" />
+      </View>
+      <BorderView layout_borders="Rect(5,5,5,5)" h_alignment="LEFT" view_layout="vertical">
+        <View v_alignment="TOP" view_layout="horizontal">
+        </View>
+        <View v_alignment="TOP" view_layout="horizontal">
+          <View h_alignment="LEFT" view_layout="vertical" width_group="left_group" width_group_owner="ItemBorder">
+            <TextView layout_borders="Rect(3,3,3,3)" value="Credits"/>
+          </View>
+          <View h_alignment="LEFT" view_layout="vertical">
+            <TextInputView feature_flags="TVF_NUMERIC" layout_borders="Rect(3,3,3,3)" max_size="Point(128,-1)" min_size="Point(128,-1)" name="Cash" value="0"/>
+          </View>
+        </View>
+        <View h_alignment="LEFT" view_layout="horizontal">
+          <View h_alignment="LEFT" view_layout="vertical" width_group="left_group" width_group_owner="ItemBorder">
+            <TextView layout_borders="Rect(3,3,3,3)" value="Item"/>
+            <VLayoutSpacer/>
+          </View>
+          <View h_alignment="LEFT" view_layout="vertical">
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_0"/>
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_1"/>
+          </View>
+          <View h_alignment="LEFT" view_layout="vertical">
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_2"/>
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_3"/>
+          </View>
+          <View h_alignment="LEFT" view_layout="vertical">
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_4"/>
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_5"/>
+          </View>
+          <View h_alignment="LEFT" view_layout="vertical">
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_6"/>
+            <ItemSlotView iconview_flags="1" layout_borders="Rect(3,3,3,3)" name="ItemView_7"/>
+          </View>
+        </View>
+      </BorderView>
+      <View view_layout="horizontal" h_alignment="LEFT">
+        <View view_layout="horizontal" h_alignment="LEFT">
+          <Button label="Send" layout_borders="Rect(5,5,5,5)" name="SendButton"/>
+          <HLayoutSpacer/>
+        </View>
+        <Button label="#Close" layout_borders="Rect(5,5,5,5)" name="Close"/>
+      </View>
+    </View>
+  </View>
+</root>

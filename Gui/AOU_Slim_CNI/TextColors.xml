@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><Root>
+    <!-- Named colours -->
+    <HTMLColor color="0x000000" name="black"/>
+    <HTMLColor color="0x008000" name="green"/>
+    <HTMLColor color="0xC0C0C0" name="silver"/>
+    <HTMLColor color="0x00FF00" name="lime"/>
+    <HTMLColor color="0x808080" name="gray"/>
+    <HTMLColor color="0x808000" name="olive"/>
+    <HTMLColor color="0xFFFFFF" name="white"/>
+    <HTMLColor color="0xFFFF00" name="yellow"/>
+    <HTMLColor color="0x800000" name="maroon"/>
+    <HTMLColor color="0x000080" name="navy"/>
+    <HTMLColor color="0xff0000" name="red"/>
+    <HTMLColor color="0x0000FF" name="blue"/>
+    <HTMLColor color="0x800080" name="purple"/>
+    <HTMLColor color="0x008080" name="teal"/>
+    <HTMLColor color="0xFF00FF" name="fuchsia"/>
+    <HTMLColor color="0x00FFFF" name="aqua"/>
+
+    <!-- Chat group/type colours -->
+    <HTMLColor color="red" name="ct_error"/>
+    <HTMLColor color="white" name="ct_system"/>
+    <HTMLColor color="yellow" name="ct_cmd_feedback"/>
+    <HTMLColor color="yellow" name="ct_otell"/>
+    <HTMLColor color="0x00ffff" name="ct_itell"/>
+    <HTMLColor color="0xff8cfc" name="ctch_admin"/>
+    <HTMLColor color="0x0ff20b" name="ctch_clan"/>
+    <HTMLColor color="0xff0099" name="ctch_emote"/>
+    <HTMLColor color="0xff61a6" name="ctch_gm"/>
+    <HTMLColor color="0xffffff" name="ctch_misc"/>
+    <HTMLColor color="0x66ff99" name="ctch_newbie"/>
+    <HTMLColor color="0x00f000" name="ctch_news"/>
+    <HTMLColor color="0xffffff" name="ctch_pgroup"/>
+    <HTMLColor color="0x6699ff" name="ctch_seekingteam"/>
+    <HTMLColor color="0xffffc9" name="ctch_shout"/>
+    <HTMLColor color="0x63e689" name="ctch_team"/>
+    <HTMLColor color="0xff9966" name="ctch_raid"/>
+    <HTMLColor color="0x00ffff" name="ctch_tell"/>
+    <HTMLColor color="0xffff45" name="ctch_vicinity"/>
+    <HTMLColor color="0x30d2ff" name="ctch_whisper"/>
+    <HTMLColor color="0xff63ff" name="ctch_tower"/>
+    <HTMLColor color="0xff7718" name="ctch_mypet"/>
+    <HTMLColor color="0xdf6718" name="ctch_otherpet"/>
+    <HTMLColor color="yellow"   name="ctch_research"/>
+
+
+    <HTMLColor color="0x00ff00ff" name="CCNoneColor"/>
+
+    <HTMLColor color="0x0015e0a0" name="CCMenubarColor"/>
+    <HTMLColor color="0x0030D2ff" name="CCWhisperColor"/>
+    <HTMLColor color="0x0000ffff" name="CCTellColor"/>
+    <HTMLColor color="0x00ffffc9" name="CCShoutColor"/>
+    <HTMLColor color="0x00ffff45" name="CCVicinityColor"/>
+    <HTMLColor color="0x0000a651" name="CCCommColor"/>
+    <HTMLColor color="0x0063e689" name="CCTeamColor"/>
+    <HTMLColor color="0x000ff20b" name="CCClanColor"/>
+    <HTMLColor color="0x0ff63ff" name="CCTowerColor"/>
+
+    <HTMLColor color="0x00ff8cfc" name="CCAdminColor"/>
+    <HTMLColor color="0x00ffffff" name="CCMiscColor"/>
+    <HTMLColor color="0x00ff61a6" name="CCGMColor"/>
+    <HTMLColor color="0x006699ff" name="CCSeekingTeamColor"/>
+    <HTMLColor color="0x0066ff99" name="CCNewbieColor"/>
+    <HTMLColor color="0x0000f000" name="CCNewsColor"/>
+    <HTMLColor color="0x00ff0099" name="CCEmoteColor"/>
+
+    <HTMLColor color="0x00ffffff" name="CCMeHitByNanoColor"/>
+    <HTMLColor color="0x009ad5d9" name="CCOtherHitByNanoColor"/>
+    <HTMLColor color="0x00ff0000" name="CCMonsterHitMeColor"/>
+    <HTMLColor color="0x00ff0000" name="CCPlayerHitMeColor"/>
+    <HTMLColor color="0x00d9d9d2" name="CCMeHitOtherColor"/>
+    <HTMLColor color="0x00999926" name="CCOtherHitOtherColor"/>
+    <HTMLColor color="0x00ff7718" name="CCOtherHitOtherMyPetColor"/>
+    <HTMLColor color="0x008cb6ff" name="CCMeHealedColor"/>
+    <HTMLColor color="0x00ffff00" name="CCMeGotXpColor"/>
+    <HTMLColor color="0x00ffffff" name="CCMeCastNano"/>
+
+  <HTMLColor color="0x00ffe3a1" name="CCSkillColor"/>
+
+    <HTMLColor color="0x0000ee00" name="CCShowFullNameColor"/>
+
+    <HTMLColor color="0x002299ff" name="CCLinkColor"/>
+    <HTMLColor color="0x00000000" name="CCToolTipColor"/>
+    <HTMLColor color="0x00ff0000" name="CCRed"/>
+    <HTMLColor color="0x0000f000" name="CCGreen"/>
+    <HTMLColor color="0x000000ff" name="CCBlue"/>
+    <HTMLColor color="0x00ffffff" name="CCWhite"/>
+    <HTMLColor color="0x00ffff00" name="CCYellow"/>
+    <HTMLColor color="0x00ccaa44" name="CCCashColor"/>
+
+    <HTMLColor color="0x00dddd44" name="CCInfoHeadline"/>
+    <HTMLColor color="0x0000dd44" name="CCInfoHeader"/>
+    <HTMLColor color="0x0066aa66" name="CCInfoText"/>
+    <HTMLColor color="0x00eeeeee" name="CCInfoTextBold"/>
+
+    <HTMLColor color="0x00cccccc" name="CCCCTextColor"/>
+    <HTMLColor color="0x00eeeeee" name="CCCCHeaderColor"/>
+    <HTMLColor color="0x0000ffff" name="CCChatCmdFeedbackError"/>
+    <HTMLColor color="yellow" name="CCChatCmdFeedbackInfo"/>
+
+    <!-- NPC chat colours -->
+    <HTMLColor color="0x007ce2ec" name="CCNPCChatText"/>
+    <HTMLColor color="0x00dadfba" name="CCNPCOOCText"/>
+    <HTMLColor color="0x00dadfba" name="CCNPCChatEmote"/>
+    <HTMLColor color="0x00d60000" name="CCNPCChatSystem"/>
+    <HTMLColor color="0x004fd553" name="CCNPCChatQuestion"/>
+    <HTMLColor color="yellow" name="CCNPCChatDescription"/>
+    <HTMLColor color="0x00dadfba" name="CCNPCChatTrade"/>
+</Root>

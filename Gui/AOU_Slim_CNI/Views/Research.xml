@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><root>
+  <View name="parent" view_layout="vertical">
+    <View view_layout="horizontal">
+      <View view_layout="vertical" width_group="main" width_group_owner="parent">
+        <View view_layout="horizontal">
+        <TextView layout_borders="Rect(5,5,5,0)" value="Personal Research"/>
+        <HLayoutSpacer/>
+        </View>
+        <View view_layout="horizontal">
+          <TextView layout_borders="Rect(5,5,5,0)" value="#0%"/>
+          <HLayoutSpacer/>
+          <TextView layout_borders="Rect(5,5,5,0)" name="PersonalResearchLbl" value="#0%"/>
+          <HLayoutSpacer/>
+          <TextView layout_borders="Rect(5,5,5,0)" value="#100%"/>
+        </View>
+        <Slider layout_borders="Rect(5,5,5,5)" max_value="100" min_value="0" name="PersonalResearchSlider"/> 
+      </View>
+      <View view_layout="vertical" width_group="main" width_group_owner="parent">
+        <View view_layout="horizontal">
+        <TextView layout_borders="Rect(5,5,5,0)" value="Global Research"/>
+        <HLayoutSpacer/>
+        </View>
+        <View view_layout="horizontal">
+          <TextView layout_borders="Rect(5,5,5,0)" value="#0%"/>
+          <HLayoutSpacer/>
+          <TextView layout_borders="Rect(5,5,5,0)" name="GlobalResearchLbl" value="#0%"/>
+          <HLayoutSpacer/>
+          <TextView layout_borders="Rect(5,5,5,0)" value="#100%"/>
+        </View>
+        <Slider layout_borders="Rect(5,5,5,5)" max_value="100" min_value="0" name="GlobalResearchSlider"/> 
+      </View>
+    </View>
+    <View view_layout="horizontal">
+      <TextView layout_borders="Rect(5,5,5,0)" value="Started Personal Research" width_group="main" width_group_owner="parent"/>
+      <TextView layout_borders="Rect(5,5,5,0)" value="Current Global Research Goal" width_group="main" width_group_owner="parent"/>
+    </View>
+    <View view_layout="horizontal">
+      <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical" width_group="main" width_group_owner="parent" name="StartedPersonal">
+      </BorderView>
+      <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical" width_group="main" width_group_owner="parent" name="StartedGlobal">
+      </BorderView>
+    </View>
+    <View view_layout="horizontal">
+      <BorderView layout_borders="Rect(5,5,5,5)" name="finishedPersonal" view_layout="vertical" width_group="main" width_group_owner="parent">
+      </BorderView>
+      <BorderView layout_borders="Rect(5,5,5,5)" name="finishedGlobal" view_layout="vertical" width_group="main" width_group_owner="parent">
+      </BorderView>
+    </View>
+    <View view_layout="vertical">
+      <TextView layout_borders="Rect(5,5,5,0)" value="#Info" />
+    </View>
+    <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+      <TextView feature_flags="TVF_MULTILINE | TVF_WORD_WRAP" layout_borders="Rect(5,5,5,0)" name="info" value="" min_size="Point(-1,80)" max_size="Point(10000,1000)"/>
+    </BorderView>
+  </View>
+</root>

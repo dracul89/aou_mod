@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><Menu>
+	<Menu label="&lt;font color=#FFBE96&gt;Specials&lt;/font&gt;" name="perk_menu" sub_script="Menu_Perk.xml" tooltip="#PerkAttacks" tooltip_body="#TheseAreAll">
+		<Actions criteria="dvalue:AutoCloseWindows" event="on_activate">
+			<SetValue name="aou_menu" value="false"/>
+			<SetValue name="char_menu" value="false"/>
+			<SetValue name="team_menu" value="false"/>
+			<SetValue name="map_menu" value="false"/>
+			<SetValue name="other_menu" value="false"/>
+		</Actions>
+	</Menu>
+</Menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><root>
+  <View v_alignment="TOP" view_layout="vertical">
+    <View layout_borders="Rect(5,5,5,0)" max_size="Point(10000,10000)" min_size="Point(1,1)" name="TargetView"/>
+    <View h_alignment="TOP" view_layout="horizontal">
+      <Button label="#Refresh" layout_borders="Rect(5,5,5,5)" name="Refresh"/>
+      <Button label="#Blammo!" layout_borders="Rect(5,5,5,5)" name="Attack"/>
+      <HLayoutSpacer/>
+      <Button label="#Close" layout_borders="Rect(5,5,5,5)" name="Quit"/>
+    </View>
+  </View>
+</root>

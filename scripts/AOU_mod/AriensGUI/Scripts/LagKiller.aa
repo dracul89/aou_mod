@@ -1,0 +1,21 @@
+/option ViewDistance 0.1
+/option CharViewDistance 8
+/option RealisticWater 0
+/option Wildlife 0
+/option IsSpaceShipsShown 0
+/option RealisticClouds 0
+/option SimpleClouds 0
+/option Shadows 0
+/option BuffsFX 0
+/option TracersFX 0
+/option NanoEffectFX 0
+/option MuzzleFlashFX 0
+/option EnvironmentFX 0
+/option OthersFX 0
+/option ShowAllNames 0
+/option FogMode 0
+/option GroundRendering 0
+
+/text Activating Lag Killer Mode.
+/text All effects Currently Activated
+/delay 2000 

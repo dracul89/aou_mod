@@ -1,0 +1,36 @@
+/text <font color="#DB96E0"><<  <<  <<  Target person IN YOUR TEAM to be faith healed   >>  >>  >></font>
+/delay 3000
+/me begins speaking like a televangelist.
+/delay 2000
+/pointfor
+/delay 1000
+/ %t, I sense the devil in you.
+/delay 1000
+/nono
+/delay 2000
+/bulge
+/ But never fear, my child, for I can save you from the hell fires of E-ternal damnation.
+/delay 5000
+/ And as a faith healer of impeccable scruples, I ask nothing in return.
+/delay 1500
+/surprised
+/delay 3500
+/gloat
+/w except for a small 200k tip.
+/delay 3000
+/ I will now exorcise the deamons out.
+/delay 1000
+/pray
+/delay 3000
+/fblock
+/ Evil demons, I command you in the name of Lord Jezzus to exit %t's body.
+/delay 4000
+/text <font color="#DB96E0"><<  <<  <<  prepare to use Holy Book of the Immortal   >>  >>  >></font> 
+/speech
+/ May the holy light from above shine once more upon this person's soul!
+/delay 3000
+/text <font color="#DB96E0"><<  <<  <<  USE THE BOOK NOW   >>  >>  >> </font>
+/delay 3000
+/ Amen, hallelujah, and praise Jezzus!  %t has been Saved!
+/delay 1500
+/thinker

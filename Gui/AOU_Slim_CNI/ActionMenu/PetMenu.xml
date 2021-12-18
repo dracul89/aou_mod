@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><Menu label="Pets" tooltip="#Pets">
+	<MenuEntry label="&lt;font color=#FFBE96&gt;Pet Info&lt;/font&gt;" name="pet_window" tooltip="#PetInfo" tooltip_body="#GivesYouA">
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Follow&lt;/font&gt;" tooltip="#PetFollow" tooltip_body="#EqualsTheChat_2">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="follow" value="/pet follow"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Behind&lt;/font&gt;" tooltip="#PetBehin" tooltip_body="#EqualsTheChat_1">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="behind" value="/pet behind"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Wait&lt;/font&gt;" tooltip="#PetWait" tooltip_body="#EqualsTheChat_8">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="wait" value="/pet wait"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Guard&lt;/font&gt;" tooltip="#PetGuard" tooltip_body="#EqualsTheChat_3">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="guard" value="/pet guard"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Attack&lt;/font&gt;" tooltip="#PetAttack" tooltip_body="#EqualsTheChat">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="attack" value="/pet attack"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Terminate&lt;/font&gt;" tooltip="#PetTermina" tooltip_body="#EqualsTheChat_7">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="terminate" value="/pet terminate"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Report&lt;/font&gt;" tooltip="#PetReport" tooltip_body="#EqualsTheChat_6">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="report" value="/pet report"/> </Actions>
+	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Heal&lt;/font&gt;" tooltip="#PetHeal" tooltip_body="#EqualsTheChat_4">
+		<Actions event="on_invoke,on_begin_drag"> <RunChatScript macro_name="heal" value="/pet heal"/> </Actions>
+	</MenuEntry>
+</Menu>

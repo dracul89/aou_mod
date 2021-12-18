@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Supported items and tags in the Control Menu scripts.</title>
+</head>
+<body>
+Available element types:
+<ul>
+  <li>Menu
+  <ul>
+    <li>MenuItem
+    <ul>
+       <li>Actions
+       <ul>
+         <li>SetValue
+         <li>RunScript
+       </ul>
+    </ul>
+    <li>ItemTemplate
+  </ul>
+</ul>
+
+
+
+<table border=1>
+<tr><th>Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>name</td><td>String</td><td>
+      Entry name. If this attribute is present and is not an empty string the
+      menu entry will be connected to a variable with this name.
+      <br>
+      It is legal to skip the name attribute or to make it an empty string.
+      The menu entry will then not be associated with a variable so it's
+      state can not be controlled by anything but the menu entry itself.
+  </td></tr>
+
+  <tr><td>label</td><td>String</td><td>
+      Item label.
+  </td></tr>
+
+  <tr><td>invoke</td><td>Expression</td><td>
+      Value to set when invoked.
+  </td></tr>
+
+  <tr><td>active_value</td><td>Expression</td><td>
+      Value corresponding to the menu-entry active state.
+  </td></tr>
+
+  <tr><td>button_mode</td><td>Token</td><td>
+      Visual action on the button.
+  </td></tr>
+
+  <tr><td>sub_script</td><td>File path</td><td>
+      Load a sub menu from a separate XML file.
+  </td></tr>
+
+  <tr><td>tooltip</td><td>String</td><td>
+      Tooltip title
+  </td></tr>
+
+  <tr><td>tooltip_body</td><td>String</td><td>
+      Tooltip body.
+  </td></tr>
+
+  <tr><td>criteria</td><td>Expression</td><td>
+      Criteria expression that must be fullfilled for this menu-entry to be displayed.
+  </td></tr>
+  <tr><td>special_action_category</td><td>Expression</td><td>
+      Make tis menu hijack special-actions in the given category.
+  </td></tr>
+</table>
+
+</body>
+</html>

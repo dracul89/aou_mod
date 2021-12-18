@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><root>
+  <View h_alignment="TOP" view_layout="horizontal">
+    <View h_alignment="LEFT" view_layout="vertical">
+      <View h_alignment="TOP" view_layout="horizontal">
+        <TextView layout_borders="Rect(5,5,5,5)" value="#YourPlaceIn"/>
+        <HLayoutSpacer/>
+        <TextView layout_borders="Rect(5,5,5,5)" name="place" value="#0n"/>
+      </View>
+      <View h_alignment="TOP" view_layout="horizontal" name="buttons">
+        <TextView layout_borders="Rect(5,5,5,5)" value="Choose side:" name="side_lbl"/>
+        <DropdownMenu layout_borders="Rect(5,5,5,5)" name="side"/>
+        <Button label="#SignUp" layout_borders="Rect(5,5,5,5)" name="SignUp"/>
+        <Button label="#LeaveQueue" layout_borders="Rect(5,5,5,5)" name="LeaveQueue"/>
+        <HLayoutSpacer/>
+        <Button label="#Close" layout_borders="Rect(5,5,5,5)" name="Quit"/>
+      </View>
+    </View>
+  </View>
+</root>

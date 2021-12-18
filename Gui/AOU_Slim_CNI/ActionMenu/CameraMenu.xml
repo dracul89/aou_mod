@@ -1,0 +1,9 @@
+<?xml version="1.0" ?><Menu label="Camera" name="camera_menu">
+	<MenuEntry label="&lt;font color=#FFBE96&gt;1st Person&lt;/font&gt;" name="camera_mode" button_mode="none" active_value="CAMERA_1ST" invoke="CAMERA_1ST" tooltip="#1stPersonView" tooltip_body="#1stPersonView" />
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;3rd Trail&lt;/font&gt;" name="camera_mode" button_mode="none" active_value="CAMERA_3RD_FREE" invoke="CAMERA_3RD_FREE" tooltip="#Trailin3rdPerson" tooltip_body="#TheCameraFloats" />
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;3rd Lock&lt;/font&gt;" name="camera_mode" button_mode="none" active_value="CAMERA_3RD_LOCK" invoke="CAMERA_3RD_LOCK" tooltip="#3rdPersonLocked" tooltip_body="#TheCameraIs" />
+
+	<MenuEntry label="&lt;font color=#FFBE96&gt;3rd Rubber&lt;/font&gt;" name="camera_mode" button_mode="none" active_value="CAMERA_3RD_RUBBER" invoke="CAMERA_3RD_RUBBER" tooltip="#3rdPersonSoft" tooltip_body="#TheCameraIs_1" />
+</Menu>

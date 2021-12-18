@@ -1,0 +1,12 @@
+<?xml version="1.0" ?><root>
+	<View view_layout="vertical">
+	        <TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP|TVF_ACCEPT_MOUSE_INPUT|TVF_ALLOW_TEXT_SELECTION" font="LARGE" h_scrollbar_mode="NONE" layout_borders="Rect(3,3,3,3)" max_size="Point(16000,16000)" min_size="Point( 0, 0 )" name="BrowserView" v_scrollbar_mode="AUTO"/>
+		<View view_layout="horizontal">
+			<View h_alignment="LEFT" view_layout="vertical">
+				<CheckBox label="#DoNotShow" layout_borders="Rect(5,5,5,3)" name="DisableOneTipCheckBox"/>
+				<CheckBox label="#DisableTips" layout_borders="Rect(5,0,5,5)" name="DisableTipsCheckBox"/>
+			</View>
+			<HLayoutSpacer/>
+		</View>
+	</View>
+</root>

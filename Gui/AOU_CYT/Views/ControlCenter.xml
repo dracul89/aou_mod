@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><root>
+	<View activate_criteria="dvalue:cc_control_center" view_layout="stacked">
+
+		<View view_layout="horizontal">
+			<View h_alignment="LEFT" view_layout="vertical">
+			<VLayoutSpacer/> 
+			<View activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_left_wing" layout_borders="Rect(0,0,0,0)" name="LeftWingDock"/>
+			</View>
+
+			<HLayoutSpacer/>
+
+			<View h_alignment="RIGHT" view_layout="vertical">
+			<CCMiniToolbar activate_criteria="dvalue:cc_mini_toolbar &amp;&amp; dvalue:cc_rollup_panel &amp;&amp; dvalue:cc_section1" layout_borders="Rect(0,0,0,0)"/>
+			<View activate_criteria="dvalue:cc_rollup_panel &amp;&amp; dvalue:cc_section1" layout_borders="Rect(0,0,0,0)" name="RollupControllerDock"/>
+			<View activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_right_wing"  layout_borders="Rect(0,0,0,0)" name="RightWingDock"/>
+			</View>
+		</View>
+
+		<View h_alignment="LEFT" v_alignment="BOTTOM" view_layout="horizontal" activate_criteria="dvalue:cc_menu1 &amp;&amp; dvalue:cc_menu_pos==0">
+			<CCMenu script="CCMenu_Char.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_viewmenu &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(5,0,0,1)"/>
+			<CCMenu script="CCMenu_Team.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_teammenu &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(2,0,0,1)"/>
+			<CCMenu script="CCMenu_Map.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_mapmenu &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(2,0,0,1)"/>
+			<CCMenu script="CCMenu_Other.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_options &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(2,0,0,1)"/>
+			<CCMenu script="CCSkillWindow.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_skillwindow &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(2,0,0,1)"/>
+			<CCMenu criteria="stat:level&gt;=10 &amp;&amp; ((stat:expansion &amp; 0x2) || (stat:expansion &amp; 0x8))" script="CCPerkWindow.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_perkwindow &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(2,0,0,1)"/>
+			<CCMenu script="CCMenu_AOU.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_aoumenu &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(2,0,0,1)"/>
+			<HLayoutSpacer/>
+		</View>
+
+		<View view_layout="horizontal" h_alignment="RIGHT" v_alignment="BOTTOM">
+			<HLayoutSpacer/>
+			<CCMenu criteria="active_item_count&gt;0" script="CCPerkMenu.xml" activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_aou_perkmenu &amp;&amp; dvalue:cc_menu1" layout_borders="Rect(0,0,2,1)"/>
+			<View activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_right_bar" layout_borders="Rect(0,0,5,5)" name="RightBarDock"/>
+		</View>
+
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="TOP">
+			<View activate_criteria="dvalue:cc_section1 &amp;&amp; dvalue:cc_left_bar"  layout_borders="Rect(0,0,0,1)" name="LeftBarDock"/>
+			<HLayoutSpacer/>
+		</View>
+	</View>
+</root>

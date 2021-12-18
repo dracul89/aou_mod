@@ -1,0 +1,77 @@
+<body bgcolor="#008080">Filters<font color=CCInfoText>
+<img src=tdb://id:GFX_GUI_FRIENDLIST_SPLITTER>
+
+<font color=CCInfoHeader>---<font color="white">Credit seller filters</font>---</font>
+Common credit seller phrases:
+<a href="chatcmd:///filter add ignore if don[']?t like">ignore if dont like</a>
+<a href="chatcmd:///filter add [tT][iI][tT][aA][gG][aA][mM][eE]">titagame</a>
+
+<a href="chatcmd:///filter list\n /filter clear"><img src=tdb://id:GFX_GUI_CHECKLIST_MARKER_NEGATIVE>Clear Filter<img src=tdb://id:GFX_GUI_CHECKLIST_MARKER_NEGATIVE></a>
+
+<font color=CCInfoHeader>---<font color="white">Annoying system messages</font>---</font>
+Here are some ready made filters, that will remove the system messages you would not like, without removing all system messages.
+
+
+<a href="chatcmd:///filter add ^Your damage shield hit [a-zA-Z0-9 !-_,.()']+ for [0-9]+ points of damage.$">Remove damage shield messages</a>
+
+<a href="chatcmd:///filter add ^You were healed for [12]?[0-9]?[0-9] points.$">Remove HealDelta messages (and all heals under 300)</a>
+
+<a href="chatcmd:///filter add ^Executing Nano Program: [a-zA-Z0-9 '!()]+.$">Remove "Executing Nano Program" messages</a>
+
+<a href="chatcmd:///filter add ^Your reflect shield hit [a-zA-Z0-9 !-_,.()']+ for [0-9]+ points of damage.$">Remove "Your reflect shield hit"  messages</a>
+
+<a href="chatcmd:///filter add ^You were damaged by a toxic substance for [1-9]?[0-9] points of damage.$">Remove "You were damaged by a toxic substance" messages</a>
+
+<a href="chatcmd:///filter add ^Changing area. Please wait.$">Remove "Changing area. Please wait" messages</a>
+
+<a href="chatcmd:///filter add ^Entering[a-zA-Z0-9 '!()]+.$">Remove "Entering new area" messages</a>
+
+<a href="chatcmd:///filter add ^Your body tingles with energy.$">Remove "Your body tingles with energy" messages</a>
+
+<a href="chatcmd:///filter add ^You have been detected by [a-zA-Z0-9 '!()]+.$">Remove "You have been detected by" messages</a>
+
+<a href="chatcmd:///filter add ^Nano program failed. Already executing nanoprogram.$">Remove "Already executing nanoprogram" messages</a>
+
+<a href="chatcmd:///filter add ^Wait for current nano program execution to finish.$">Remove "Wait for current nano program execution to finish" messages</a>
+
+<a href="chatcmd:///filter add ^Wait for your previous special attack to complete.$">Remove "Wait for your previous special attack to complete" messages</a>
+
+<a href="chatcmd:///filter add ^You are already running this action!$">Remove "You are already running this action" messages</a>
+
+<a href="chatcmd:///filter add ^Unable to execute nano program. You can't execute this nano on the target.$">Remove "You can't execute this nano on the target" messages</a>
+
+<a href="chatcmd:///filter add ^Unable to perform action[a-zA-Z ,]+ locked, able in [0-9][0-9]:[0-9][0-9]:[0-9][0-9]$">Remove "Unable to perform action, locked, able in" messages</a>
+
+<a href="chatcmd:///filter add ^[a-zA-Z ()]+ available.$">Remove special available messages</a>
+
+<a href="chatcmd:///filter add ^Target is already dead.$">Remove "Target is already dead" messages</a>
+
+<a href="chatcmd:///filter add ^Special attack is unavailable.$">Remove "Special attack is unavailable" messages</a>
+
+<font color=CCInfoHeader>---<font color="white">The basic commands</font>---</font>
+<font color=CCInfoHeader>/filter add WORD</font>
+That will filter out all messages containing WORD.
+it is rather agressive. If you filter out "crap" it also remove "Scrap", filtering out "anal" will remove "analyst".
+also it will just filter crap/anal out, but not Crap or Anal.
+To get a mix of upper and lowercase letters you will have to do like this:
+<font color=CCInfoHeader>/filter add [Cc][Rr][Aa][Pp]</font>
+For all the combinations.
+
+<font color=CCInfoHeader>---<font color="white">Advanced commands</font>---</font>
+The /filter command uses regular expression, you can read about it on Wikipedia <a href="chatcmd:///start http://en.wikipedia.org/wiki/Regular_expression">Here</a>
+
+<font color=CCInfoHeader>^</font> 	Matches the starting position within the string.
+<font color=CCInfoHeader>$</font> 	Matches the ending position of the string.
+<font color=CCInfoHeader>*</font> 	Matches the preceding element zero or more times.
+<font color=CCInfoHeader>?</font> 	Matches the preceding element zero or one time.
+<font color=CCInfoHeader>+</font> 	Matches the preceding element one or more times.
+
+Other things for common use:
+<font color=CCInfoHeader>[0-9]</font> All numbers
+<font color=CCInfoHeader>[a-zA-Z]</font> All letters upper and lower case
+<font color=CCInfoHeader>[a-zA-Z0-9 '!()]</font> Everything
+
+
+Now be careful, and remember <a href="chatcmd:///filter list\n /filter clear" style="text-decoration:none"><font color=CCInfoHeader>/filter clear</font></a> as you might get to filter out everything, it is indeed posible.
+
+</font></body>

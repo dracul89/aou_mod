@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><root>
+  <View view_layout="vertical">
+    <View view_layout="horizontal">
+      <View view_layout="vertical">
+        <TextView layout_borders="Rect(5,5,5,0)" value="Personal Research Progress"  max_size="Point(10000,-1)"/>
+        <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical" >
+          <ScrollView v_scrollbar_mode="auto" layout_borders="Rect(5,5,5,5)" >
+            <ScrollViewChild view_layout="vertical"  layout_borders="Rect(0,5,0,5)" name="personalRadioScroll">
+              <RadioButtonGroup layout_borders="Rect(5,5,5,0)" name="personalRadio">
+              </RadioButtonGroup>
+            </ScrollViewChild>
+          </ScrollView>              
+        </BorderView>
+        <TextView layout_borders="Rect(5,5,5,0)" value="Global Research Progress" max_size="Point(10000,-1)"/>
+        <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+          <ScrollView v_scrollbar_mode="auto" layout_borders="Rect(5,5,5,5)" >
+            <ScrollViewChild view_layout="vertical"  layout_borders="Rect(0,5,0,5)" name="globalRadioScroll">
+              <RadioButtonGroup layout_borders="Rect(5,5,5,0)" name="globalRadio">
+              </RadioButtonGroup>
+            </ScrollViewChild>
+          </ScrollView>              
+        </BorderView>        
+      </View>
+      <View view_layout="vertical">
+        <TextView layout_borders="Rect(5,5,5,0)" value="Selected Research Line" max_size="Point(10000,-1)"/>
+        <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical" name="PerkLine">
+          <VLayoutSpacer/>
+        </BorderView>        
+      </View>      
+    </View>
+    <TextView layout_borders="Rect(5,5,5,0)" value="#Info" max_size="Point(10000,-1)"/>
+    <BorderView layout_borders="Rect(5,5,5,5)" view_layout="vertical">
+      <TextView feature_flags="TVF_MULTILINE | TVF_WORD_WRAP" layout_borders="Rect(5,5,5,0)" name="info" value="" min_size="Point(-1,80)" max_size="Point(10000,1000)"/>
+    </BorderView>
+  </View>
+</root>

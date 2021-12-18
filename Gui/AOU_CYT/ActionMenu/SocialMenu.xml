@@ -1,0 +1,222 @@
+<?xml version="1.0" ?><Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Greeting&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Bow&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/bow"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Curt&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/curt"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Greet&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/greet"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;kneel&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/kneel"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Salute&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/salute"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Scared&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/scared"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Surprised&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/surprised"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Surrender&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/surrender"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Wave&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/wave"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Gesture&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Cross&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/cross"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Facepalm&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/facepalm"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Fish Size&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/fishsize"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Gloat&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/gloat"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Italian&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/italian"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Nod&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/nod"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Nono&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/nono"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Pray&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pray"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Shrug&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/shrug"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Speech&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/speech"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Thinker&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/thinker"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Approval&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Applause&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/applause"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Blow Kiss&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/blowkiss"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Giggle&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/giggle"/> </Actions>
+        	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Hug&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/hug"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Kiss High&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/kisshigh"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Kiss Low&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/kisslow"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Laugh-b&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/laugh-b"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Laugh-s&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/laugh-s"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Prostrate&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/prostrate"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Swroyal&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/swroyal"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Thumbs&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/thumbs"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Dislike&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Angry&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/angry"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Bulge&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/bulge"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Fblock&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/fblock"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Flip&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/flip"/> </Actions>
+        	</MenuEntry>
+         	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Moon&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/moon"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Puke&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/puke"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Shake&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/shake"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Slap&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/slap"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Spit&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/spit"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Dancing&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Ballet&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/ballet"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Chicken&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/chicken"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Disco&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/disco"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Flamenco&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/flamenco"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Pulp&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pulp"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Rocky&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/rocky"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;YMCA&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/ymca"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Athlete&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Back Flip&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/backflip"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Strong 1&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/strong1"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Strong 2&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/strong2"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Strong 3&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/strong3"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Strong 4&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/strong4"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Relaxing&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Adjust&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/adjust"/> </Actions>
+        	</MenuEntry>
+         	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Drink&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/drink"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Eat&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/eat"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Itch&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/itch"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Leg Shake&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/legshake"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Lounge&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/lounge"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Read&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/read"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Scratch&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/scratch"/> </Actions>
+        	</MenuEntry>
+	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Sleep&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/sleep"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+       	<Menu label="&lt;font color=#FFBE96&gt;Directions&lt;/font&gt;">
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Apachi&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/apachi"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Lookout&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/lookout"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Point Back&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pointba"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Point Forward&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pointfor"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Point Left&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pointlef"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Point Right&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pointrig"/> </Actions>
+        	</MenuEntry>
+        	<MenuEntry button_mode="button" label="&lt;font color=#FFBE96&gt;Point Up&lt;/font&gt;">
+        		<Actions event="on_invoke,on_begin_drag"> <RunChatScript value="/pointup"/> </Actions>
+        	</MenuEntry>
+	</Menu>
+</Menu>

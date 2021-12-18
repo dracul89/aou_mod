@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><root>
+	<HotKeyGroup label="#FixedKeys" mode="fixed">
+		<HotKeyGroup label="#Chat">	  
+			<HotKey down_id="id:KEY_COMMAND_CHAT_HISTORY_PAGE_UP" label="#ScrollChatUp"/>  
+			<HotKey down_id="id:KEY_COMMAND_CHAT_HISTORY_PAGE_DOWN" label="#ScrollChatDown"/>
+			<HotKey down_id="id:KEY_COMMAND_START_CHAT_REPLY_INPUT" label="#ChatReply"/>
+                                        						  
+			<HotKey down_id="id:KEY_COMMAND_DEBUG_POSTOCHAT" label="#Coordin"/>       
+		</HotKeyGroup>
+		<HotKeyGroup label="#Targeti">	  
+			<HotKey down_id="id:KEY_NEXT_FRIENDLY_TARGET" label="#NextFriendl"/>    
+			<HotKey down_id="id:KEY_PREV_FRIENDLY_TARGET" label="#PrevFriendl"/>    
+			<HotKey down_id="id:KEY_NEXT_HOSTILE_TARGET" label="#NextHostile"/>     
+			<HotKey down_id="id:KEY_PREV_HOSTILE_TARGET" label="#PrevHostile"/>     
+		</HotKeyGroup>
+		<HotKeyGroup label="#CameraKeys3rd">
+			<HotKey down_id="id:KEY_COMMAND_ROTATE_CAMERA_LEFT" label="#Left"/>        
+			<HotKey down_id="id:KEY_COMMAND_ROTATE_CAMERA_RIGHT" label="#Right"/>       
+			<HotKey down_id="id:KEY_COMMAND_ROTATE_CAMERA_UP" label="#Up"/>          
+			<HotKey down_id="id:KEY_COMMAND_ROTATE_CAMERA_DOWN" label="#Down"/>        
+			<HotKey down_id="id:KEY_COMMAND_ZOOM_CAMERA_IN" label="#ZoomIn"/>            
+			<HotKey down_id="id:KEY_COMMAND_ZOOM_CAMERA_OUT" label="#ZoomOut"/>           
+			<HotKey down_id="id:KEY_COMMAND_CAMERA_SET_PREFERRED_POS" label="#SaveFixedCamera"/>  
+			<HotKey down_id="id:KEY_COMMAND_CAMERA_RESET" label="#ResetFixedCamera"/>              
+		</HotKeyGroup>
+	</HotKeyGroup>
+</root>

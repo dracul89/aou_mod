@@ -1,0 +1,15 @@
+/text <font color="#DB96E0"><<  <<  <<  Target someone who smells  >>  >>  >></font>
+/delay 3000
+/scared
+/delay 1000
+/ What's that smell?
+/delay 2000
+/ Did someone step in something?
+/delay 1550
+/legshake
+/delay 6000
+/slap
+/delay 500
+/ Yuck, I stepped in %t crap!
+/delay 2000
+/ I frigging hate %ts.

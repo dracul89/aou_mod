@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><root>
+  <View h_alignment="TOP" view_layout="horizontal">
+    <View h_alignment="LEFT" view_layout="vertical">
+      <View h_alignment="TOP" view_layout="horizontal">
+        <HLayoutSpacer/>
+        <TextView layout_borders="Rect(0,5,0,2)" value="#AvailabVehicle"/>
+        <HLayoutSpacer/>
+      </View>
+      <BorderView layout_borders="Rect(2,0,1,2)" name="MechButtons">
+        <Button label="#HelloKittyMech" layout_borders="Rect(0,0,0,0)" name="Mech 1"/>
+      </BorderView>
+    </View>
+    <View h_alignment="LEFT" view_layout="vertical">
+      <View h_alignment="LEFT" view_layout="vertical">
+        <View h_alignment="TOP" view_layout="horizontal">
+          <HLayoutSpacer/>
+          <TextView layout_borders="Rect(0,5,0,2)" value="#VehicleDescrip"/>
+          <HLayoutSpacer/>
+        </View>
+        <BorderView layout_borders="Rect(1,0,2,1)">
+          <TextView feature_flags="TVF_MULTILINE|TVF_WORD_WRAP" layout_borders="Rect(2,2,2,2)" max_size="Point(10000,10000)"  name="VehicleInfo" value="Make a selection from the available vehicles menu before placing your order.
+
+Vehicles can be used to enhance your combat experience. Make sure you choose the right tool for the job.
+
+Important:
+Vehicles can not be ordered while in combat, morphed, or when in Shadowlands.
+
+Further information concerning the vehicle system can be found in the help menu."/>
+          <VLayoutSpacer/>
+        </BorderView>
+        <View h_alignment="TOP" view_layout="horizontal">
+          <ViewSelector name="mode">
+            <Button label="#OrderVehicle" layout_borders="Rect(1,2,0,2)" name="OrderVehicle"/>
+            <Button label="Leave vehicle" layout_borders="Rect(1,2,0,2)" name="LeaveVehicle"/>
+          </ViewSelector>
+          <HLayoutSpacer/>
+          <Button label="#Close" layout_borders="Rect(1,0,2,2)" name="Quit"/>
+        </View>
+      </View>
+    </View>
+  </View>
+</root>
