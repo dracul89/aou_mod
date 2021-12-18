@@ -106,4 +106,13 @@
     <HTMLColor color="0x004fd553" name="CCNPCChatQuestion"/>
     <HTMLColor color="yellow" name="CCNPCChatDescription"/>
     <HTMLColor color="0x00dadfba" name="CCNPCChatTrade"/>
+
+    <!-- Item rarity -->
+    <HTMLColor color="0x00dede42" name="CCItemUnknown"/>
+    <HTMLColor color="0x00909090" name="CCItemTrash"/>
+    <HTMLColor color="0x00ffffff" name="CCItemNormal"/>
+    <HTMLColor color="0x00f3af67" name="CCItemExotic"/>
+    <HTMLColor color="0x00219cff" name="CCItemQuest"/>
+    <HTMLColor color="0x00fb93c6" name="CCItemSocial"/>
+
 </Root>
