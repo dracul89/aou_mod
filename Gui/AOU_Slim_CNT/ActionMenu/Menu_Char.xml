@@ -5,6 +5,10 @@
 			<SetValue name="itemshop_window" value="dvalue:itemshop_window==false" />
 		</Actions>
 	</MenuEntry>
+
+	<MenuEntry label="Daily Rewards" name="dailylogin_window" tooltip="Daily Login Rewards" tooltip_body="View and claim your daily login rewards."/> 
+		
+	<MenuEntry label="Pending Rewards" name="checkrewards_window" tooltip="Claim Pending Rewards" tooltip_body="Claim any rewards you've earned."/> 
 	
 	<MenuEntry label="&lt;font color=#FFBE96&gt;Inventory&lt;/font&gt;" name="inventory_window" criteria="stat:side!=3" tooltip="#InventoWindow" tooltip_body="#YourInventoIs">
 		<Actions event="on_invoke">
