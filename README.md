@@ -25,3 +25,5 @@ into your chat command:
 
 
 A window will pop up prompting you to restart Anarchy Online for the changes to take effect.
+
+![alt text](Screenshot 2022-01-29 091838.png)
