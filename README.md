@@ -26,4 +26,6 @@ into your chat command:
 
 A window will pop up prompting you to restart Anarchy Online for the changes to take effect.
 
-![alt text](https://github.com/dracul89/aou_mod/blob/main/Screenshot%202022-01-29%20091838.png)
+you can download the zip via this link. https://github.com/dracul89/aou_mod/archive/refs/heads/main.zip
+
+![alt text](https://github.com/dracul89/aou_mod/blob/main/Screenshot_20221009_020157.png)
